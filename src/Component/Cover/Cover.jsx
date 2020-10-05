@@ -5,7 +5,7 @@ import cover from '../Cover/Cover1.jpg';
 const Cover =()=>{
     return(
         <div className='wrapcover'>
-           <img className='img1' src={cover}></img>
+           <img className='img1' src={cover}/>
            <div className='form'>
             <button className="btnopen">SAVE THE DATE</button>
             </div>

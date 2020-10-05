@@ -1,15 +1,17 @@
  .wrapcover{
     background-color: lightskyblue;
     width: 100%;
-    height: 590px;
+    height: 100%;
+    position: relative;
 
 }
 .img1{
     display: block;
     width: 100%;
-    height: 100%;
-   
+    height: 585px;
+
 }
+
 
 .form{
     height: auto;
@@ -18,7 +20,7 @@
     padding-bottom: 20%;
     width: 100%;
     margin-right: auto;
-    background-color: yellowgreen;
+    
     
 }
 .btnopen{
@@ -43,6 +45,14 @@
         height: 975px;
     
     }
+    .img1 {
+        display: block;
+        width: 100%;
+        height: 970px;
+    }
+    
+    
+   
  }
  @media only screen and (min-width: 480px) and (max-width: 767px) {
     .wrapcover{
@@ -51,6 +61,11 @@
         height: 975px;
     
     }
+    .img1 {
+        display: block;
+        width: 100%;
+        height: 970px;
+    }
  }
  @media only screen and (min-width: 992px) {
     .wrapcover{
@@ -58,6 +73,11 @@
         width: 100%;
         height: 1320px;
     
+    }
+    .img1 {
+        display: block;
+        width: 100%;
+        height: 1310px;
     }
  }
 
