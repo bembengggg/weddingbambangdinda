@@ -10,7 +10,6 @@ class Home extends Component{
            
             <div className='container'>
                 <Cover/>
-                <Cover/>
                 <NavBottom/>
                 
                 
