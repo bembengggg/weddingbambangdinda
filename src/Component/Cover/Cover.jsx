@@ -7,7 +7,7 @@ const Cover =()=>{
         <div className='wrapcover'>
            <img className='img1' src={cover}></img>
            <div className='form'>
-            <button className="btnopen">Open Invitation</button>
+            <button className="btnopen">SAVE THE DATE</button>
             </div>
          </div>
 
