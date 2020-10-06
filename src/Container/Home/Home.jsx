@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
 import NavBottom from '../../Component/NavBottom/NavBottom';
 import Cover from '../../Component/Cover/Cover';
+
 import './Home.css';
+
 class Home extends Component{
     render(){
         return(
-                <NavBottom/> 
+           
+            <div className='container'>
+                <NavBottom/>
+                
+                
+            </div>
         )
     }
 }
