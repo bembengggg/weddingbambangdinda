@@ -2,7 +2,7 @@ import React from 'react';
 import './Couple.css';
 import couple from '../Couple/Wedding.jpg';
 
-const Cover =()=>{
+const Couple =()=>{
     return(
         <div className='wrapcover'>
            <img className='img1' src={couple}/>
@@ -15,4 +15,4 @@ const Cover =()=>{
     )
 }
 
-export default Cover;
+export default Couple;
