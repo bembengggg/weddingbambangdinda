@@ -10,7 +10,7 @@ class NavBottom extends Component{
     render(){
         return(
             <Router>
-                <Fragment>
+                <Fragment>        
             <nav className="nav">
             <Link to="/" className="nav__link">
                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
