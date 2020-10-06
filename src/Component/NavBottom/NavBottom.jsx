@@ -10,7 +10,9 @@ class NavBottom extends Component{
     render(){
         return(
             <Router>
-                <Fragment>        
+                <Fragment>
+                <Route path="/" exact component={Cover}/>
+            <Route path="/Couple" component={Couple}/>        
             <nav className="nav">
             <Link to="/" className="nav__link">
                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
@@ -33,8 +35,7 @@ class NavBottom extends Component{
                     <span class="nav__text">MESSAGES</span>
             </Link>    
             </nav>
-            <Route path="/" exact component={Cover}/>
-            <Route path="/Couple" component={Couple}/>
+            
             </Fragment>
             </Router>
      
