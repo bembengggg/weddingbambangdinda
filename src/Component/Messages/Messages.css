@@ -8,7 +8,6 @@
     display: block;
     width: 100%;
     height: 585px;
-
 }
 
 
@@ -58,13 +57,13 @@
     .wrapcover{
         
         width: 100%;
-        height: 975px;
+        height: 1425px;
         position: relative;
     }
     .img1 {
         display: block;
         width: 100%;
-        height: 970px;
+        height: 1425px;
     }
  }
  @media only screen and (min-width: 992px) {
@@ -80,6 +79,7 @@
         height: 1325px;
     }
  }
+
 
  
 
