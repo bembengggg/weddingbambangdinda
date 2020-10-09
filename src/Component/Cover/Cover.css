@@ -78,6 +78,19 @@
         height: 2285px;
     }
  }
+ @media only screen and (min-device-height: 2960px) {
+    .wrapcover{
+        width: 100%;
+        height: 2900px;
+    
+    }
+    .img1 {
+        display: block;
+        width: 100%;
+        height: 2900px;
+    }
+ }
+ 
 
  
 
