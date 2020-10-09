@@ -25,7 +25,7 @@
 .btnopen{
     position: absolute;
     height:50%;
-    width: 50%;
+    width: 100%;
     justify-content: center;
     margin-left: 25%;
     margin-right: auto;
