@@ -7,7 +7,7 @@ import Cover from '../Cover/Cover';
 import Couple from '../Couple/Couple';
 import Gallery from '../Gallery/Gallery';
 import Messages from '../Messages/Messages';
-// import Place from '../Place/Place';
+import Place from '../Place/Place';
 
 class NavBottom extends Component{
     render(){
@@ -17,6 +17,7 @@ class NavBottom extends Component{
                     <Route path="/" exact component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
+                    <Route path="/Place" component={Place}/>
                     <Route path="/Messages" component={Messages}/>                    
                         <nav className="nav">
                              <Link to="/" className="nav__link">

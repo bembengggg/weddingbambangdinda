@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import Home from './Container/Home/Home';
 import firebase from './Config/firebase';
 
-console.log("consol log=====>",firebase)
+
 
 
 ReactDOM.render(<Home />,document.getElementById('root') );
