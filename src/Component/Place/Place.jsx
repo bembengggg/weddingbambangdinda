@@ -9,9 +9,9 @@ const Cover =()=>{
 
     return(
         <div className='wrapcover'>
-           <img className='img1' src={place}/>
-           <div className='form'>
-            <button className="btnopen" onClick={event =>  window.location.href='https://goo.gl/maps/xvyf6YvwSCZGx3D49'}>OPEN GOOGLE MAP</button>
+           <img className='img2' src={place}/>
+           <div className='form1'>
+            <button className="btnopeng" onClick={event =>  window.location.href='https://goo.gl/maps/xvyf6YvwSCZGx3D49'}>Open Google Map</button>
             </div>
          </div>
 

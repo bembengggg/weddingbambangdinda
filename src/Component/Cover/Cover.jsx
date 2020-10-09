@@ -30,7 +30,7 @@ const Cover =()=>{
         <div className='wrapcover'>
            <img className='img1' src={cover}/>
            <div className='form'>
-            <button className="btnopen" onClick={handleClick}>SAVE THE DATE</button>
+            <button className="btnopens" onClick={handleClick}>SAVE THE DATE</button>
             </div>
          </div>
 

@@ -22,19 +22,7 @@
     
     
 }
-.btnopen{
-    position: absolute;
-    height:50%;
-    width: 50%;
-    justify-content: center;
-    margin-left: 25%;
-    margin-right: auto;
-    border-radius: 11px;
-    font-weight: bold;
-    background-color: burlywood;
-    font-family: 'fredoka one';
 
-}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
