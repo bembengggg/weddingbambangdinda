@@ -31,13 +31,13 @@ const Cover =()=>{
         <div className='wrapcover'>
            <img className='img1' src={cover}/>
            <div className='form5'>
-                <label className='labelnama'>Nama Guest</label>
+                <label className='labelnama'>BUDI SANTOSO</label>
             </div>
            <div className='form4'>
             <button className="btnopens" onClick={handleClick}>SAVE THE DATE</button>
             </div>
             <div className='form6'>
-                <label className='labeltempat'>Nama Tempat</label>
+                <label className='labeltempat'>DI DEPOK</label>
             </div>
          </div>
 
