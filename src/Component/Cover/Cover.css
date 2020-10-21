@@ -75,8 +75,6 @@
     top: 30%;
     width: 100%;
     margin-right: auto;
-    font-family: 'freoka one';
-    font-size: 20px;
     animation-name: animasi1;
     animation-duration: 3s;
 }
@@ -89,7 +87,6 @@
     top: 35%;
     width: 100%;
     margin-right: auto;
-    font-size: 25px;
     animation-name: animasi1;
     animation-duration: 3s;
 }
@@ -99,10 +96,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 43%;
+    top: 45%;
     width: 100%;
     margin-right: auto;
-    font-size: 25px;
     animation-name: animasi2;
     animation-duration: 3s;
 }
@@ -115,7 +111,6 @@
     top: 40%;
     width: 100%;
     margin-right: auto;
-    font-size: 20px;
     animation-name: animasi2;
     animation-duration: 3s;
 }
@@ -128,34 +123,46 @@
     top: 53%;
     width: 100%;
     margin-right: auto;
-    font-size: 20px;
     animation-name: animasi2;
     animation-duration: 3s;
 }
-@import url(//db.onlinewebfonts.com/c/1fed4454352f201d52b65ca5480afb2d?family=Playlist);
+
+@font-face{
+    font-family: "LeckerliOne-Regular";
+    src: url('../../Assets/font/LeckerliOne-Regular.ttf');
+    font-family: 'playlist';
+    src: url('../../Assets/font/PlaylistScript.ttf') format('truetype');
+}
 .labeltempat{
     color:#545454;
 }
 .labelnpl{
     color: #CBC1A1;
-    font-family: 'fredoka one';
+    font-family: 'playlist';
+    font-size: 35px;
 }
 .labelnpw{
     color: #CBC1A1;
-    font-family: 'fredoka one';
+    font-family: 'playlist';
+    font-size: 40px;
 }
 .labeland{
 
     color: #CBC1A1;
-    font-family: 'fredoka one';
+    font-family: 'playlist';
+    font-size: 40px;
+}
+.labeltgl{
 
+    font-family: 'fredoka one';
+    font-size: 15px;
 }
 @keyframes animasi1{
     0%{transform: translateY(0px);}
     100%{transform: translateY(5px);}
 }
 @keyframes animasi2{
-    0%{transform: translateY(30px);}
+    0%{transform: translateY(40px);}
     100%{transform: translateY(0px);}
 }
 
