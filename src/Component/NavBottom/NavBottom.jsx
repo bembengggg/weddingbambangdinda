@@ -14,9 +14,11 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 class NavBottom extends Component{
     componentDidMount() {
-       new Audio(
-      "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
-    ).play();
+       
+      }
+      playAudio() {
+        const audioEl = document.getElementsByClassName("audio-element")[0]
+        audioEl.play()
       }
     render(){
         return(
@@ -26,10 +28,13 @@ class NavBottom extends Component{
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
-                    <Route path="/Messages" component={Messages}/> 
+                    <Route path="/Messages" component={Messages}/>
+                    <button onClick={this.playAudio}>
+          <span>Play Audio</span>
+        </button> 
                     <audio className="audio-element">
                        <source src={audio}></source>
-                 </audio>
+                </audio>
                         <nav className="nav">
                              <Link to="/" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
