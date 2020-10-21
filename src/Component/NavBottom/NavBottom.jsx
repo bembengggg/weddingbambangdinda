@@ -10,6 +10,7 @@ import Messages from '../Messages/Messages';
 import Place from '../Place/Place';
 
 class NavBottom extends Component{
+   
     render(){
         return(
             <Router>
@@ -18,7 +19,7 @@ class NavBottom extends Component{
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
-                    <Route path="/Messages" component={Messages}/>                    
+                    <Route path="/Messages" component={Messages}/> 
                         <nav className="nav">
                              <Link to="/" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
