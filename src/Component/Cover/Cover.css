@@ -89,8 +89,7 @@
     top: 35%;
     width: 100%;
     margin-right: auto;
-
-    font-size: 35px;
+    font-size: 25px;
     animation-name: animasi1;
     animation-duration: 3s;
 }
@@ -100,10 +99,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 45%;
+    top: 43%;
     width: 100%;
     margin-right: auto;
-    font-size: 32px;
+    font-size: 25px;
     animation-name: animasi2;
     animation-duration: 3s;
 }
@@ -116,7 +115,7 @@
     top: 40%;
     width: 100%;
     margin-right: auto;
-    font-size: 40px;
+    font-size: 20px;
     animation-name: animasi2;
     animation-duration: 3s;
 }
@@ -139,16 +138,16 @@
 }
 .labelnpl{
     color: #CBC1A1;
-    font-family: 'Playlist';
+    font-family: 'fredoka one';
 }
 .labelnpw{
     color: #CBC1A1;
-    font-family: 'Playlist';
+    font-family: 'fredoka one';
 }
 .labeland{
 
     color: #CBC1A1;
-    font-family: 'Playlist';
+    font-family: 'fredoka one';
 
 }
 @keyframes animasi1{
