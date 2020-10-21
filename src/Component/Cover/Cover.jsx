@@ -43,7 +43,7 @@ const Cover =()=>{
                 <label className='labeland'>&amp;</label>
             </div>
             <div className='form11'>
-                <label className='labeltgl'>09.01.2021 | Sasono Mulyo</label>
+                <label className='labeltgl'>09.January.2021 | Sasono Mulyo</label>
             </div>
            <div className='form5'>
                 <label className='labelnama'>BUDI SANTOSO</label>
