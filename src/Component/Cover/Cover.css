@@ -64,8 +64,88 @@
     font-family: 'fredoka one';
     font-size: 15px;
 }
+@import url(//db.onlinewebfonts.com/c/1fed4454352f201d52b65ca5480afb2d?family=Playlist);
+.form7{
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    width: 100%;
+    margin-right: auto;
+    font-family: 'freoka one';
+    font-size: 20px;
+    animation-name: animasi1;
+    animation-duration: 3s;
+}
+.form8{
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+    width: 100%;
+    margin-right: auto;
+    font-family: 'playlist';
+    font-size: 35px;
+    animation-name: animasi1;
+    animation-duration: 3s;
+}
+.form10{
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
+    width: 100%;
+    margin-right: auto;
+    font-family: 'playlist';
+    font-size: 35px;
+    animation-name: animasi2;
+    animation-duration: 3s;
+}
+.form9{
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    width: 100%;
+    margin-right: auto;
+    font-family: 'playlist';
+    font-size: 40px;
+    animation-name: animasi2;
+    animation-duration: 3s;
+}
+.form11{
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 53%;
+    width: 100%;
+    margin-right: auto;
+    font-family: 'freoka one';
+    font-size: 20px;
+    animation-name: animasi2;
+    animation-duration: 3s;
+}
 .labeltempat{
     color:#545454;
+}
+
+@keyframes animasi1{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(5px);}
+}
+@keyframes animasi2{
+    0%{transform: translateY(30px);}
+    100%{transform: translateY(0px);}
 }
 
 

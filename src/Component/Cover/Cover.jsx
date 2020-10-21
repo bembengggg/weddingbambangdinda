@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cover.css';
-import cover from '../Cover/Cover1.jpg';
+import cover from '../Cover/bgimage.jpg';
 
 const Cover =()=>{
 
@@ -30,6 +30,21 @@ const Cover =()=>{
     return(
         <div className='wrapcover'>
            <img className='img1' src={cover}/>
+           <div className='form7'>
+                <label className='labeljudul'>Are Getting Married</label>
+            </div>
+           <div className='form8'>
+                <label className='labelnpw'>Adinda Rizki Fitrianisa</label>
+            </div>
+            <div className='form10'>
+                <label className='labelnpl'>Bambang Kurniawan Wibowo</label>
+            </div>
+            <div className='form9'>
+                <label className='labeland'>&amp;</label>
+            </div>
+            <div className='form11'>
+                <label className='labeltgl'>09.01.2021</label>
+            </div>
            <div className='form5'>
                 <label className='labelnama'>BUDI SANTOSO</label>
             </div>
