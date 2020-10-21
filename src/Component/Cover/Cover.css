@@ -159,7 +159,7 @@
 }
 @keyframes animasi1{
     0%{transform: translateY(0px);}
-    100%{transform: translateY(5px);}
+    100%{transform: translateY(20px);}
 }
 @keyframes animasi2{
     0%{transform: translateY(40px);}
