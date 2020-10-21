@@ -20,6 +20,9 @@
        overflow-x: auto;
    
    }
+   .music{
+       display: none;
+   }
    @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
    .nav__link{
        display: flex;

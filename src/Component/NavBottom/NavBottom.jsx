@@ -20,6 +20,7 @@ class NavBottom extends Component{
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
                     <Route path="/Messages" component={Messages}/> 
+                    <iframe className="music" src="https://www.youtuberepeater.com/watch?v=EKkfxvTEyQQ#gsc.tab=0"></iframe>
                         <nav className="nav">
                              <Link to="/" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
