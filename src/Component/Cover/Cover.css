@@ -52,6 +52,7 @@
 .labelnama{
     color:#545454;
 }
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 .form6{
     height: auto;
     position: absolute;
@@ -88,7 +89,7 @@
     top: 35%;
     width: 100%;
     margin-right: auto;
-    font-family: 'playlist';
+
     font-size: 35px;
     animation-name: animasi1;
     animation-duration: 3s;
@@ -102,8 +103,7 @@
     top: 45%;
     width: 100%;
     margin-right: auto;
-    font-family: 'playlist';
-    font-size: 35px;
+    font-size: 32px;
     animation-name: animasi2;
     animation-duration: 3s;
 }
@@ -116,7 +116,6 @@
     top: 40%;
     width: 100%;
     margin-right: auto;
-    font-family: 'playlist';
     font-size: 40px;
     animation-name: animasi2;
     animation-duration: 3s;
@@ -130,7 +129,6 @@
     top: 53%;
     width: 100%;
     margin-right: auto;
-    font-family: 'fredoka one';
     font-size: 20px;
     animation-name: animasi2;
     animation-duration: 3s;
@@ -140,13 +138,16 @@
 }
 .labelnpl{
     color: #CBC1A1;
+    font-family: 'Playlist';
 }
 .labelnpw{
     color: #CBC1A1;
+    font-family: 'Playlist';
 }
 .labeland{
 
     color: #CBC1A1;
+    font-family: 'Playlist';
 
 }
 @keyframes animasi1{
