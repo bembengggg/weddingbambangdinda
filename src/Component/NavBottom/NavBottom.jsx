@@ -8,9 +8,15 @@ import Couple from '../Couple/Couple';
 import Gallery from '../Gallery/Gallery';
 import Messages from '../Messages/Messages';
 import Place from '../Place/Place';
+import audio from '../../Assets/MP3/sepertiga.mp3';
+
+
 
 class NavBottom extends Component{
-   
+    componentDidMount() {
+        const audioEl = document.getElementsByClassName("audio-element")[0]
+        audioEl.play()
+      }
     render(){
         return(
             <Router>
@@ -20,7 +26,9 @@ class NavBottom extends Component{
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
                     <Route path="/Messages" component={Messages}/> 
-                    <iframe className="music" src="https://www.youtuberepeater.com/watch?v=EKkfxvTEyQQ#gsc.tab=0"></iframe>
+                    <audio className="audio-element">
+          <source src={audio}></source>
+        </audio>
                         <nav className="nav">
                              <Link to="/" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
