@@ -45,15 +45,6 @@ const Cover =()=>{
             <div className='form11'>
                 <label className='labeltgl'>09.January.2021 | Sasono Mulyo</label>
             </div>
-           <div className='form5'>
-                <label className='labelnama'>BUDI SANTOSO</label>
-            </div>
-           <div className='form4'>
-            <button className="btnopens" onClick={handleClick}>SAVE THE DATE</button>
-            </div>
-            <div className='form6'>
-                <label className='labeltempat'>DI DEPOK</label>
-            </div>
          </div>
 
 
