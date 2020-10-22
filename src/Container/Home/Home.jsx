@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBottom from '../../Component/NavBottom/NavBottom';
 import Cover from '../../Component/Cover/Cover';
+import container from '../Home/container.jpg';
 
 import './Home.css';
 
@@ -9,7 +10,7 @@ class Home extends Component{
         return(
            
             <div className='container'>
-                <NavBottom/>  
+           <img className='buku' src={container}/>
             </div>
         )
     }

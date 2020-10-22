@@ -14,9 +14,6 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 class NavBottom extends Component{
     componentDidMount() {
-       
-      }
-      playAudio() {
         const audioEl = document.getElementsByClassName("audio-element")[0]
         audioEl.play()
       }
@@ -29,9 +26,6 @@ class NavBottom extends Component{
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
                     <Route path="/Messages" component={Messages}/>
-                    <button onClick={this.playAudio}>
-          <span>Play Audio</span>
-        </button> 
                     <audio className="audio-element">
                        <source src={audio}></source>
                 </audio>
