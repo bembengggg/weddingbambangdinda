@@ -23,9 +23,6 @@ class NavBottom extends Component{
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
                     <Route path="/Messages" component={Messages}/>
-                    <audio className="audio-element">
-                       <source src={audio}></source>
-                </audio>
                         <nav className="nav">
                              <Link to="/" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />

@@ -3,6 +3,8 @@ import NavBottom from '../../Component/NavBottom/NavBottom';
 import Cover from '../../Component/Cover/Cover';
 import container from '../Home/container.jpg';
 import audio from '../../Assets/MP3/sepertiga.mp3';
+import {Router} from 'react-router-dom';
+
 
 import './Home.css';
 

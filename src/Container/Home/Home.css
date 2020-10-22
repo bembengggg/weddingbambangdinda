@@ -17,8 +17,11 @@
     top: 60%;
     width: 58%;
     margin-left: 80px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #FFDDA1;
+    border-style: inset;
+    color:#FFDDA1;
+
 }
 .labelnama{
     font-size: 15px;
