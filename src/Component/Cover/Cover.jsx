@@ -45,6 +45,7 @@ const Cover =()=>{
             <div className='form11'>
                 <label className='labeltgl'>09.January.2021 | Sasono Mulyo</label>
             </div>
+         
          </div>
 
 

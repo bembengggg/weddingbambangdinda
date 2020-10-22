@@ -13,10 +13,7 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
-    componentDidMount() {
-        const audioEl = document.getElementsByClassName("audio-element")[0]
-        audioEl.play()
-      }
+  
     render(){
         return(
             <Router>
