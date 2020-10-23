@@ -7,8 +7,11 @@ import Cover from '../Cover/Cover';
 import Couple from '../Couple/Couple';
 import Gallery from '../Gallery/Gallery';
 import Messages from '../Messages/Messages';
+import Sampul from '../Sampul/Sampul';
 import Place from '../Place/Place';
 import audio from '../../Assets/MP3/sepertiga.mp3';
+// import NavBottom from '../../Component/NavBottom/NavBottom';
+
 
 
 
@@ -17,8 +20,10 @@ class NavBottom extends Component{
     render(){
         return(
             <Router>
+                                    
                 <Fragment>
-                    <Route path="/" exact  component={Cover}/>
+                <Route path="/" exact  component={Sampul}/>
+                    <Route path="/Cover" component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
@@ -46,6 +51,7 @@ class NavBottom extends Component{
                             </Link>    
                             </nav>
                 </Fragment>
+  
             </Router>
      
         )
