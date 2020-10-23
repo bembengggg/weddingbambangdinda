@@ -42,7 +42,7 @@ class NavBottom extends Component{
                                     <span class="nav__text">HOME</span>
                              </Link>   
                              <Link to="/Couple" className="nav__link">
-                                  <FontAwesomeIcon icon={faHeart}  className="nav__icon" />
+                                   <FontAwesomeIcon icon={faHeart}  className="nav__icon" />
                                     <span class="nav__text">COUPLE</span>
                              </Link>  
                              <Link to="/Place" className="nav__link">
