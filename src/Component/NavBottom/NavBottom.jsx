@@ -26,6 +26,8 @@ class NavBottom extends Component{
     //     const audioEl = document.getElementsByClassName("audio-element")[0]
     //     audioEl.play()
     //   }
+   
+
     render(){
         return(
             <Router>                                                 

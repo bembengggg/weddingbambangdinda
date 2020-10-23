@@ -30,7 +30,7 @@ class Sampul extends Component{
 
          <div className='bksbtnudg'>
 
-         <Link to="/cover"> <button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
+         <button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
             
             <audio className="audio-element">
                <source src={audio}></source>
