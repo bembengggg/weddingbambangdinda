@@ -7,11 +7,11 @@ import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 
 
 class Sampul extends Component{
-    // playAudio() {
-    //     const audioEl = document.getElementsByClassName("audio-element")[0]
-    //     audioEl.play()
-
-    //   }
+    playAudio =()=> {
+        // const audioEl = document.getElementsByClassName("audio-element")[0]
+        // audioEl.play()
+        alert('play')
+      }
       render(){
     return(
         <div className='container'>

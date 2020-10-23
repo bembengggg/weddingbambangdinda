@@ -17,15 +17,15 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
-    // playAudio() {
+    playAudio =()=> {
+        // const audioEl = document.getElementsByClassName("audio-element")[0]
+        // audioEl.play()
+        alert('play')
+      }
+    //   componentDidMount() {
     //     const audioEl = document.getElementsByClassName("audio-element")[0]
     //     audioEl.play()
-
     //   }
-      componentDidMount() {
-        const audioEl = document.getElementsByClassName("audio-element")[0]
-        audioEl.play()
-      }
    
 
     render(){
