@@ -15,19 +15,32 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 
+
 class NavBottom extends Component{
-  
+    // playAudio() {
+    //     const audioEl = document.getElementsByClassName("audio-element")[0]
+    //     audioEl.play()
+
+    //   }
+      componentDidMount() {
+        const audioEl = document.getElementsByClassName("audio-element")[0]
+        audioEl.play()
+      }
     render(){
         return(
-            <Router>
-                                                  
+            <Router>                                                 
                 <Fragment>
                     <Route path="/Cover" component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
                     <Route path="/Messages" component={Messages}/>
+                    <audio className="audio-element">
+                               <source src={audio}></source>
+                            </audio>
                         <nav className="nav">
+                            
+
                              <Link to="/" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
                                     <span class="nav__text">HOME</span>
@@ -48,6 +61,7 @@ class NavBottom extends Component{
                                     <FontAwesomeIcon icon={faEnvelope}  className="nav__icon" />
                                     <span class="nav__text">MESSAGES</span>
                             </Link>    
+ 
                             </nav>
                 </Fragment>
                 <Route path="/" exact  component={Sampul}/>  
