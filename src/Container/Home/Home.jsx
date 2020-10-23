@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import NavBottom from '../../Component/NavBottom/NavBottom';
 import Cover from '../../Component/Cover/Cover';
-import Sampul from '../../Component/Sampul/Sampul';
 
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
@@ -11,7 +10,12 @@ class Home extends Component{
    
     render(){
         return(
-            <Sampul/>
+            <NavBottom/>
+            // <Router>
+        
+       
+            // <Route path="/navbottom"   component={NavBottom}/>  
+            // </Router>
      
            
         )
