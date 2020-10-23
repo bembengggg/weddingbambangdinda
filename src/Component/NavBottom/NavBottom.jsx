@@ -22,10 +22,10 @@ class NavBottom extends Component{
     //     audioEl.play()
 
     //   }
-      componentDidMount() {
-        const audioEl = document.getElementsByClassName("audio-element")[0]
-        audioEl.play()
-      }
+    //   componentDidMount() {
+    //     const audioEl = document.getElementsByClassName("audio-element")[0]
+    //     audioEl.play()
+    //   }
     render(){
         return(
             <Router>                                                 
@@ -35,12 +35,8 @@ class NavBottom extends Component{
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
                     <Route path="/Messages" component={Messages}/>
-                    <audio className="audio-element">
-                               <source src={audio}></source>
-                            </audio>
                         <nav className="nav">
                             
-
                              <Link to="/" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
                                     <span class="nav__text">HOME</span>

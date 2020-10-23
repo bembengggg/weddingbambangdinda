@@ -7,7 +7,11 @@ import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 
 
 class Sampul extends Component{
-    
+    playAudio() {
+        const audioEl = document.getElementsByClassName("audio-element")[0]
+        audioEl.play()
+
+      }
       render(){
     return(
         <div className='container'>
@@ -25,9 +29,10 @@ class Sampul extends Component{
          </div>
 
          <div className='bksbtnudg'>
-
-         <Link to="/cover"> <button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>        
-            
+<button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button>        
+            <audio className="audio-element">
+               <source src={audio}></source>
+            </audio>
          </div>
 
     </div>
