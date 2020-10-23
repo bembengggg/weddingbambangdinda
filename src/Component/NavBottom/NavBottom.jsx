@@ -22,7 +22,7 @@ class NavBottom extends Component{
             <Router>   
                                              
                 <Fragment>
-                    <Route path="/" exact component={Cover}/>
+                    <Route path="/" exact component={Sampul}/>
                     <Route path="/Cover" component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
