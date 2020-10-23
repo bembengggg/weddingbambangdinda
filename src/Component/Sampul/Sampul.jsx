@@ -7,36 +7,50 @@ import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 
 
 class Sampul extends Component{
-    playAudio =()=> {
+    state = {
+        isActive: false
+      };
+    playAudio=()=> {
         // const audioEl = document.getElementsByClassName("audio-element")[0]
         // audioEl.play()
-        alert('play')
+        this.setState({
+            isActive: true
+          });
+
       }
       render(){
+        if (this.state.isActive) {
     return(
-        <div className='container'>
-        <img className='buku' src={container}/>
-        <div className='bkslabelnama'>
-            <div>
-                <label className='labelnama'>Budi Sukarjo andarmono</label>
-                </div>
-                <div>
-                <label className='labeltempat'>Di</label>
-                </div>
-                <div>
-                <label className='labeltempat'>Bandar Lampung</label>
-                </div>
-         </div>
 
-         <div className='bksbtnudg'>
-
-         <Link to='cover'><button className="btnudg" onClick={this.playAudio} ><span>BUKA UNDANGAN</span></button></Link>
-            
-         </div>
-
-    </div>
-    
-    )
+          <div>
+           
+          </div>    
+    );}else {
+        return (
+          
+          <div className='container'>
+          <img className='buku' src={container}/>
+          <div className='bkslabelnama'>
+              <div>
+                  <label className='labelnama'>Budi Sukarjo andarmono</label>
+                  </div>
+                  <div>
+                  <label className='labeltempat'>Di</label>
+                  </div>
+                  <div>
+                  <label className='labeltempat'>Bandar Lampung</label>
+                  </div>
+           </div>
+  
+           <div className='bksbtnudg'>
+  
+           <Link to='cover'><button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
+              
+           </div>
+  
+      </div>
+        );
+      }
 }
 }
 
