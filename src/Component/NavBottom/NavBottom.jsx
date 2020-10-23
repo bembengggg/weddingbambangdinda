@@ -18,7 +18,7 @@ class NavBottom extends Component{
         return(
             <Router>
                 <Fragment>
-                    <Route path="/" exact component={Cover}/>
+                    <Route path="/" exact  component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
                     <Route path="/Place" component={Place}/>
