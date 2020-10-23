@@ -23,8 +23,6 @@ class Sampul extends Component{
     this.audio.play();
         this.setState({
             isActive: true
-            // const audioEl = document.getElementsByClassName("audio-element")[0]
-            // audioEl.play()
           });
 
       }
