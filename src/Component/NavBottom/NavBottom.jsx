@@ -17,15 +17,12 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
-    // playAudio() {
-    //     const audioEl = document.getElementsByClassName("audio-element")[0]
-    //     audioEl.play()
+    playAudio() {
+        const audioEl = document.getElementsByClassName("audio-element")[0]
+        audioEl.play()
 
-    //   }
-    //   componentDidMount() {
-    //     const audioEl = document.getElementsByClassName("audio-element")[0]
-    //     audioEl.play()
-    //   }
+      }
+     
    
 
     render(){
@@ -62,7 +59,11 @@ class NavBottom extends Component{
  
                             </nav>
                 </Fragment>
-                <Route path="/" exact  component={Sampul}/>  
+                <Route path="/" exact  component={Sampul}/>
+                
+            <audio className="audio-element">
+               <source src={audio}></source>
+            </audio>  
             </Router>
      
         )
