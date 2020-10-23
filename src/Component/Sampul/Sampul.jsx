@@ -14,8 +14,8 @@ class Sampul extends Component{
         play: false,
         pause: true,
       };
-      this.url = "http://streaming.tdiradio.com:8000/house.mp3";
-    this.audio = new Audio(this.url);
+
+    this.audio = new Audio(audio);
         }
       
     playAudio=()=> {
