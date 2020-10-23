@@ -20,9 +20,8 @@ class NavBottom extends Component{
     render(){
         return(
             <Router>
-                                    
+                                                  
                 <Fragment>
-                <Route path="/" exact  component={Sampul}/>
                     <Route path="/Cover" component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
@@ -51,7 +50,7 @@ class NavBottom extends Component{
                             </Link>    
                             </nav>
                 </Fragment>
-  
+                <Route path="/" exact  component={Sampul}/>  
             </Router>
      
         )
