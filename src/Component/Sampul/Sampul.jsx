@@ -7,14 +7,24 @@ import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 
 
 class Sampul extends Component{
-    state = {
-        isActive: false
+        constructor(props) {
+        super(props);
+    this.state = {
+        isActive: false, 
+        play: false,
+        pause: true,
       };
+      this.url = "http://streaming.tdiradio.com:8000/house.mp3";
+    this.audio = new Audio(this.url);
+        }
+      
     playAudio=()=> {
-        // const audioEl = document.getElementsByClassName("audio-element")[0]
-        // audioEl.play()
+        this.setState({ play: true, pause: false })
+    this.audio.play();
         this.setState({
             isActive: true
+            // const audioEl = document.getElementsByClassName("audio-element")[0]
+            // audioEl.play()
           });
 
       }
