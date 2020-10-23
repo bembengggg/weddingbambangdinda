@@ -17,12 +17,29 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
+    constructor(props) {
+        super(props);
+    this.state = {
+        isActive: false
+      };
+        }
+      
+    
+      componentDidMount() {
+        this.setState({
+            isActive: true
+          });
+      }
+
+
+
+
     render(){
         return(
             <Router>   
                                              
                 <Fragment>
-                    <Route path="/Home" exact component={Sampul}/>
+                    <Route path="/Home" exact component={Cover}/>
                     <Route path="/Cover" component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
                     <Route path="/Gallery" component={Gallery}/>
