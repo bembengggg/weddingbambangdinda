@@ -31,7 +31,7 @@ class NavBottom extends Component{
     render(){
         return(
             <Router>   
-                <Sampul/>                                              
+                                             
                 <Fragment>
                     <Route path="/Home" component={Sampul}/>
                     <Route path="/Cover" component={Cover}/>
@@ -63,6 +63,7 @@ class NavBottom extends Component{
                             </Link>    
  
                             </nav>
+                            <Sampul/> 
                 </Fragment>
                 
             <audio className="audio-element">
