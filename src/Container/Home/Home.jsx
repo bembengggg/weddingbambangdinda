@@ -10,7 +10,9 @@ class Home extends Component{
    
     render(){
         return(
+            <div className='container'>
             <NavBottom/>
+            </div>
             // <Router>
         
        

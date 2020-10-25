@@ -108,7 +108,7 @@
         height: 1550px;
     }
  }
- @media only screen and (min-width: 411px) {
+ @media only screen and (min-width: 411px) and (min-width: 411px) {
     .container{
         width: 100%;
         height: 100%;
@@ -118,7 +118,7 @@
     .buku{
         display: block;
         width: 100%;
-        height: 735px;
+        height: 890px;
     }
     .bkslabelnama{
         position: absolute;
@@ -126,7 +126,48 @@
         align-items: center;
         top: 60%;
         width: 60%;
-        margin-left: 90px;
+        margin-left: 200px;
+        border-radius: 10px;
+        background-color: #FFDDA1;
+    }
+    .labelnama{
+        font-size: 15px;
+        font-family: 'fredoka one';
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .labeltempat{
+        font-size: 15px;
+        font-family: 'fredoka one';
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 100%;
+    }
+ }
+ @media only screen and (min-width: 890px) and (min-width: 890px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    
+    }
+    .buku{
+        display: block;
+        width: 100%;
+        height: 890px;
+    }
+    .bkslabelnama{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 60%;
+        width: 60%;
+        margin-left: 275px;
         border-radius: 10px;
         background-color: #FFDDA1;
     }
@@ -706,7 +747,7 @@
         align-items: center;
         top: 60%;
         width: 60%;
-        margin-left: 80px;
+        margin-left: 65px;
         border-radius: 10px;
         background-color: #FFDDA1;
         border-style: inset;
