@@ -22,6 +22,7 @@ class NavBottom extends Component{
             <Router>   
                                              
                 <Fragment>
+                
                     <Route path="/Home" component={Cover}/>
                     <Route path="/Cover" component={Cover}/>
                     <Route path="/Couple" component={Couple}/>
@@ -51,9 +52,9 @@ class NavBottom extends Component{
                                     <span class="nav__text">MESSAGES</span>
                             </Link>    
  
-                            </nav>
-                            <Sampul /> 
+                            </nav> 
                 </Fragment>
+                <Route path="/:nama" exact component={Sampul}/>
           
             </Router>
      

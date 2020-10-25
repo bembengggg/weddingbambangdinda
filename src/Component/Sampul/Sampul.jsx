@@ -15,6 +15,8 @@ class Sampul extends Component{
         pause: true,
       };
 
+      
+
     this.audio = new Audio(audio);
         }
       
@@ -34,13 +36,14 @@ class Sampul extends Component{
            
           </div>    
     );}else {
+      console.log(this.props)
         return (
           
           <div className='container'>
           <img className='buku' src={container}/>
           <div className='bkslabelnama'>
               <div>
-                  <label className='labelnama'>Budi Sukarjo andarmono</label>
+                  <label className='labelnama'>{this.props.match.params.nama}</label>
                   </div>
                   <div>
                   <label className='labeltempat'>Di</label>
