@@ -41,6 +41,7 @@ class Sampul extends Component{
           
           <div className='container'>
           <img className='buku' src={container}/>
+          <div className='wrappernama'>
           <div className='bkslabelnama'>
               <div>
                   <label className='labelnama'>{this.props.match.params.nama}</label>
@@ -51,6 +52,7 @@ class Sampul extends Component{
                   <div>
                   <label className='labeltempat'>{this.props.match.params.tempat}</label>
                   </div>
+           </div>
            </div>
   
            <div className='bksbtnudg'>
