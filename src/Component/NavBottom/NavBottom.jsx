@@ -54,7 +54,7 @@ class NavBottom extends Component{
  
                             </nav> 
                 </Fragment>
-                <Route path="/:nama" exact component={Sampul}/>
+                <Route path="/:nama/:tempat" exact component={Sampul}/>
           
             </Router>
      

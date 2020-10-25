@@ -49,7 +49,7 @@ class Sampul extends Component{
                   <label className='labeltempat'>Di</label>
                   </div>
                   <div>
-                  <label className='labeltempat'>Bandar Lampung</label>
+                  <label className='labeltempat'>{this.props.match.params.tempat}</label>
                   </div>
            </div>
   
