@@ -149,7 +149,49 @@
         top: 100%;
     }
  }
- @media only screen and (min-width: 650px) {
+ @media only screen and (min-width: 500px) and (max-width:600px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    
+    }
+    .buku{
+        display: block;
+        width: 100%;
+        height: 890px;
+    }
+    .bkslabelnama{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 60%;
+        width: 60%;
+        margin-left: 120px;
+        border-radius: 10px;
+        background-color: #FFDDA1;
+    }
+    .labelnama{
+        font-size: 15px;
+        font-family: 'fredoka one';
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .labeltempat{
+        font-size: 15px;
+        font-family: 'fredoka one';
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 100%;
+    }
+ }
+
+ @media only screen and (min-width: 600px) and (max-width:720px) {
     .container{
         width: 100%;
         height: 100%;
@@ -190,6 +232,8 @@
         top: 100%;
     }
  }
+
+
  @media only screen and (min-width: 720px) and (min-width:720px) {
     .container{
         width: 100%;
