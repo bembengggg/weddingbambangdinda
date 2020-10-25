@@ -52,6 +52,26 @@
 .labelnama{
     color:#545454;
 }
+@media only screen and (min-height: 1520px) and (max-height:1520px) {
+    .labelnpl{
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 30px;
+    }
+    .labelnpw{
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 35px;
+    }
+    .labeland{
+    
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 40px;
+    }
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 .form6{
     height: auto;
