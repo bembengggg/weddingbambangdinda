@@ -57,7 +57,7 @@ class Sampul extends Component{
   
            <div className='bksbtnudg'>
   
-           <Link to='cover'><button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
+           <Link to='/:nama/:tempat/cover'><button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
               
            </div>
   

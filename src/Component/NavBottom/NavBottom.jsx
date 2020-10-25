@@ -23,38 +23,38 @@ class NavBottom extends Component{
                                              
                 <Fragment>
                 
-                    <Route path="/:nama/:tempat/Home" component={Cover}/>
+                    <Route path="/Home" component={Cover}/>
                     <Route path="/:nama/:tempat/Cover" component={Cover}/>
-                    <Route path="/:nama/:tempat/Couple" component={Couple}/>
-                    <Route path="/:nama/:tempat/Gallery" component={Gallery}/>
-                    <Route path="/:nama/:tempat/Place" component={Place}/>
-                    <Route path="/:nama/:tempat/Messages" component={Messages}/>
+                    <Route path="/Couple" component={Couple}/>
+                    <Route path="/Gallery" component={Gallery}/>
+                    <Route path="/Place" component={Place}/>
+                    <Route path="/Messages" component={Messages}/>
                     
                         <nav className="nav">
-                             <Link to="/:nama/:tempat/Home" className="nav__link">
+                             <Link to="/Home" className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
                                     <span class="nav__text">HOME</span>
                              </Link>   
-                             <Link to="/:nama/:tempat/Couple" className="nav__link">
+                             <Link to="/Couple" className="nav__link">
                                    <FontAwesomeIcon icon={faHeart}  className="nav__icon" />
                                     <span class="nav__text">COUPLE</span>
                              </Link>  
-                             <Link to="/:nama/:tempat/Place" className="nav__link">
+                             <Link to="/Place" className="nav__link">
                                     <FontAwesomeIcon icon={faMapMarkerAlt}  className="nav__icon" />
                                      <span class="nav__text">PLACE</span>
                              </Link>  
-                            <Link to="/:nama/:tempat/Gallery" className="nav__link">
+                            <Link to="/Gallery" className="nav__link">
                                     <FontAwesomeIcon icon={faImages}  className="nav__icon" />
                                     <span class="nav__text">GALLERY</span>
                             </Link> 
-                            <Link to="/:nama/:tempat/Messages" className="nav__link">
+                            <Link to="/Messages" className="nav__link">
                                     <FontAwesomeIcon icon={faEnvelope}  className="nav__icon" />
                                     <span class="nav__text">MESSAGES</span>
                             </Link>    
  
                             </nav> 
                 </Fragment>
-                <Route path="/:nama/:tempat/" exact component={Sampul}/>
+                <Route path="/:nama/:tempat" exact component={Sampul}/>
           
             </Router>
      
