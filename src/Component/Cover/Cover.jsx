@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './Cover.css';
 import cover from '../Cover/bgimage.jpg';
 
