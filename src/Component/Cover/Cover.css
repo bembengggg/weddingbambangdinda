@@ -476,6 +476,178 @@
     }
 
 }
+@media only screen and (min-height: 500px) and (max-width: 1000px) {
+    .wrapcover{
+        
+        width: 100%;
+        height: 1520px;
+    
+    }
+    .img1 {
+        display: block;
+        width: 100%;
+        height: 1520px;
+    }
+    .form7{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 25%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form8{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 30%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form10{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 40%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form9{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 35%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .labeltempat{
+        color:#545454;
+    }
+    .labelnpl{
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 30px;
+    }
+    .labelnpw{
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 30px;
+    }
+    .labeland{
+    
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 40px;
+    }
+    .labeltgl{
+    
+        font-family: 'fredoka one';
+        font-size: 15px;
+    }
+
+}
+@media only screen and (min-height: 653px) and (max-width: 653px) {
+    .wrapcover{
+        
+        width: 100%;
+        height: 1520px;
+    
+    }
+    .img1 {
+        display: block;
+        width: 100%;
+        height: 1520px;
+    }
+    .form7{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 25%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form8{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 30%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form10{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 40%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form9{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 35%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .labeltempat{
+        color:#545454;
+    }
+    .labelnpl{
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 25px;
+    }
+    .labelnpw{
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 30px;
+    }
+    .labeland{
+    
+        color: #CBC1A1;
+        font-family: 'playlist';
+        font-size: 40px;
+    }
+    .labeltgl{
+    
+        font-family: 'fredoka one';
+        font-size: 15px;
+    }
+
+}
 
  @media only screen and (min-width: 480px) and (max-width: 767px) {
     .wrapcover{
