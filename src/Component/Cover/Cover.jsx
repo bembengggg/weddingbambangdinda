@@ -2,31 +2,37 @@ import React from 'react';
 import './Cover.css';
 import cover from '../Cover/bgimage.jpg';
 
-const Cover =()=>{
+class Cover extends Component{
 
-      var gapi = window.gapi;
-      var CLIENT_ID="309104866685-27ukuktcp5rsktsrlf4hu7ch7h1muccv.apps.googleusercontent.com";
-      var API_KEY=" AIzaSyAl5xTz0N8YIPJGg9NQSHPhLBAvEJ--tzo";
-      var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
-      var SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
- 
-    function handleClick() {
-            gapi.load('client:auth2',()=>{
-                console.log('gapi client is loading')
-                
-                gapi.client.init({
-                    apikey: API_KEY,
-                    clientid: CLIENT_ID,
-                    discoveryDocs:DISCOVERY_DOCS,
-                    scope: SCOPES,
-                })
-                gapi.client.load('calendar','v3', () => console.log('Damn!!'))
-                gapi.auth2.getAuthInstance().signIn()
-              
-
-            })
-       }
-
+    constructor(props) {
+        super(props);
+        // Pre-bind your event handler, or define it as a fat arrow in ES7/TS
+        this.handleNVFocus = this.handleNVFocus.bind(this);
+        this.handleNVEnter = this.handleNVEnter.bind(this);
+        this.handleNVRight = this.handleNVRight.bind(this);
+      }
+    
+      handleNVFocus = event => {
+          alert('Focused: ' + this.props.menuItem.caption.toUpperCase());
+      }
+    
+      handleNVEnter = event => {
+          alert('Enter: ' + this.props.menuItem.caption.toUpperCase());
+      }
+    
+      handleNVRight = event => {
+          alert('Right: ' + this.props.menuItem.caption.toUpperCase());
+      }
+    
+      componentDidMount() {
+        ReactDOM.findDOMNode(this).addEventListener('nv-focus', this.handleNVFocus);
+        ReactDOM.findDOMNode(this).addEventListener('nv-enter', this.handleNVEnter);
+        ReactDOM.findDOMNode(this).addEventListener('nv-right', this.handleNVEnter);
+        //this.refs.nv.addEventListener('nv-focus', this.handleNVFocus);
+        //this.refs.nv.addEventListener('nv-enter', this.handleNVEnter);
+        //this.refs.nv.addEventListener('nv-right', this.handleNVEnter);
+      }
+      render(){
     return(
         <div className='wrapcover'>
            <img className='img1' src={cover}/>
@@ -54,5 +60,5 @@ const Cover =()=>{
 
     )
 }
-
+}
 export default Cover;

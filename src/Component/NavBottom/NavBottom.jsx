@@ -1,4 +1,5 @@
 import React, {Component,Fragment} from 'react';
+import ReactDOM from 'react-dom';
 import './NavBottom.css';
 import { faHome,faImages,faHeart,faQrcode,faMapMarkerAlt,faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,7 +18,34 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
-
+    constructor(props) {
+        super(props);
+        // Pre-bind your event handler, or define it as a fat arrow in ES7/TS
+        this.handleNVFocus = this.handleNVFocus.bind(this);
+        this.handleNVEnter = this.handleNVEnter.bind(this);
+        this.handleNVRight = this.handleNVRight.bind(this);
+      }
+    
+      handleNVFocus = event => {
+          console.log('Focused: ' + this.props.menuItem.caption.toUpperCase());
+      }
+    
+      handleNVEnter = event => {
+          console.log('Enter: ' + this.props.menuItem.caption.toUpperCase());
+      }
+    
+      handleNVRight = event => {
+          console.log('Right: ' + this.props.menuItem.caption.toUpperCase());
+      }
+    
+      componentDidMount() {
+        ReactDOM.findDOMNode(this).addEventListener('nv-focus', this.handleNVFocus);
+        ReactDOM.findDOMNode(this).addEventListener('nv-enter', this.handleNVEnter);
+        ReactDOM.findDOMNode(this).addEventListener('nv-right', this.handleNVEnter);
+        //this.refs.nv.addEventListener('nv-focus', this.handleNVFocus);
+        //this.refs.nv.addEventListener('nv-enter', this.handleNVEnter);
+        //this.refs.nv.addEventListener('nv-right', this.handleNVEnter);
+      }
     render(){
         
         return(
