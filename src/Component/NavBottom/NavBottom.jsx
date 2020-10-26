@@ -17,7 +17,9 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
+    
     render(){
+        
         return(
             <Router>   
                                              

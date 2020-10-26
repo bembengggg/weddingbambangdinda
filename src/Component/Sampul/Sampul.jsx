@@ -43,13 +43,13 @@ class Sampul extends Component{
           <img className='buku' src={container}/>
           <div className='wrappernama'>
           <div className='bkslabelnama'>
-              <div>
+              <div className='wrapperin'>
                   <label className='labelnama'>{this.props.match.params.nama}</label>
-                  </div>
-                  <div>
+                
+              
                   <label className='labeltempat'>Di</label>
-                  </div>
-                  <div>
+                
+                  
                   <label className='labeltempat'>{this.props.match.params.tempat}</label>
                   </div>
            </div>
