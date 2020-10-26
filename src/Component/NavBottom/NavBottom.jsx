@@ -17,12 +17,6 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
-    componentDidMount() {
-   
-        let swiper = new Swipe(document.getElementById('#my-element'));
-        swiper.onUp(function() { alert('You swiped left.') });
-        swiper.run();
-    }
 
     render(){
         
