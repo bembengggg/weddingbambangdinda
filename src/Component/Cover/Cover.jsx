@@ -8,32 +8,10 @@ class Cover extends Component{
 
     constructor(props) {
         super(props);
-        // Pre-bind your event handler, or define it as a fat arrow in ES7/TS
-        this.handleNVFocus = this.handleNVFocus.bind(this);
-        this.handleNVEnter = this.handleNVEnter.bind(this);
-        this.handleNVRight = this.handleNVRight.bind(this);
-      }
-    
-      handleNVFocus = event => {
-          alert('Focused: ' + this.props.menuItem.caption.toUpperCase());
-      }
-    
-      handleNVEnter = event => {
-          alert('Enter: ' + this.props.menuItem.caption.toUpperCase());
-      }
-    
-      handleNVRight = event => {
-          alert('Right: ' + this.props.menuItem.caption.toUpperCase());
-      }
-    
-      componentDidMount() {
-        ReactDOM.findDOMNode(this).addEventListener('nv-focus', this.handleNVFocus);
-        ReactDOM.findDOMNode(this).addEventListener('nv-enter', this.handleNVEnter);
-        ReactDOM.findDOMNode(this).addEventListener('nv-right', this.handleNVEnter);
-        //this.refs.nv.addEventListener('nv-focus', this.handleNVFocus);
-        //this.refs.nv.addEventListener('nv-enter', this.handleNVEnter);
-        //this.refs.nv.addEventListener('nv-right', this.handleNVEnter);
-      }
+
+
+        
+    }
       render(){
     return(
         <div className='wrapcover'>

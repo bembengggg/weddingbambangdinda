@@ -46,9 +46,9 @@ class Sampul extends Component{
               <div className='wrapperin'>
                   <label className='labelnama'>{this.props.match.params.nama}</label>
                 
-              
+                  
                   <label className='labeltempat'>Di</label>
-                
+                  
                   
                   <label className='labeltempat'>{this.props.match.params.tempat}</label>
                   </div>
@@ -57,7 +57,7 @@ class Sampul extends Component{
   
            <div className='bksbtnudg'>
   
-           <Link to='/:nama/:tempat/cover'><button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
+           <Link to='/Cover'><button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
               
            </div>
   

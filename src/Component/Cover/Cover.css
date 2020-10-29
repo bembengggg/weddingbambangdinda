@@ -476,7 +476,7 @@
     }
 
 }
-@media only screen and (min-height: 500px) and (max-width: 1000px) {
+@media only screen and (min-height: 400px) and (max-width: 1000px) {
     .wrapcover{
         
         width: 100%;
