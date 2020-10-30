@@ -82,7 +82,7 @@
     font-size: 20px;
 }
 .txtbpk{
-    font-size: 12px;
+    font-size: 14px;
     color: #CBC1A1;
 }
 .htopb{
@@ -104,4 +104,18 @@
     display: block;
     width: 40%;
     height: 20%;
+}
+
+.wrappingimg{
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: red;
+}
+.imgw{
+    height: 100%;
+    width: 100%;
 }

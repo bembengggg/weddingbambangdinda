@@ -3,6 +3,7 @@ import './Couple.css';
 // import couple from '../Couple/Wedding.jpg';
 import couple from '../Cover/bgimage.jpg';
 import bismillah from '../../Assets/image/bismillah.png';
+import dinda from '../../Assets/image/dinda.PNG';
 
 const Couple =()=>{
     return(
@@ -22,6 +23,9 @@ const Couple =()=>{
             </div>
             <div className='htopb'>
             <img className='htopimg' src={bismillah}/>
+            </div>
+            <div className='wrappingimg'>
+                <img className='imgw' src={dinda}/>
             </div>
          </div>
 
