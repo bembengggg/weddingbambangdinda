@@ -194,7 +194,14 @@ to{
     margin-left: 0%;
 }
 }
-
+@keyframes animasitext1{
+    from{
+        opacity: 0;
+    }
+    to{
+        margin-left: 0%;
+    }
+    }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .wrapcover{

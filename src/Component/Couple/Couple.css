@@ -310,4 +310,61 @@
     animation-duration: 2s;
 
 }
+.wrapIG{
+    width: 100%;
+    animation: animasitext1;
+    animation-duration: 4s;
+
+}
+.imgig{
+    height: auto;
+    position: absolute;
+    top: 55%;
+    width: 50%;   
+}
+.imglistig{
+    height: auto;
+    position: absolute;
+    width: 20%;  
+}
+.namaig{
+    position: absolute;
+    top: 56%;
+    width: 100%;
+    font-family: 'monofonto';     
+}
+.txtwig{
+    font-size: 10px;
+    margin-left: 10%;
+    color:#9C6615 ;
+}
+.wraplIG{
+    width: 100%;
+    animation: animasitext1;
+    animation-duration: 4s;
+
+}
+.imglig{
+    height: auto;
+    position: absolute;
+    top: 83%;
+    width: 50%;   
+}
+.imglistlig{
+    height: auto;
+    position: absolute;
+    width: 20%;
+    margin-left: 160%;  
+}
+.namalig{
+    position: absolute;
+    top: 84%;
+    width: 100%;
+    font-family: 'monofonto';     
+}
+.txtlig{
+    font-size: 10px;
+    margin-left: 68%;
+    color:#9C6615 ;
+}
 

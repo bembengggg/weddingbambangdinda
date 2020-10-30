@@ -6,6 +6,7 @@ import bismillah from '../../Assets/image/bismillah.png';
 import dinda from '../../Assets/image/dinda.PNG';
 import bambang from '../../Assets/image/bambang.PNG';
 import list from '../../Assets/image/list.png';
+import IG from '../../Assets/image/IG.png';
 
 
 const Couple =()=>{
@@ -29,7 +30,9 @@ const Couple =()=>{
             </div>
             
             <div className='wrappingimg'>
+            <a href="https://www.instagram.com/adindarfitrianisa/">
                 <img className='imgw' src={dinda}/>
+            </a>
             </div>
             <div className='animasitext'>
             <div className='htopw'>
@@ -48,11 +51,21 @@ const Couple =()=>{
                 <label className='txtwibu'>Ibu Ita Deswita</label>
             </div>
             </div>
+            <div className='wrapIG'>
+            <div className='imgig'>
+            <img className='imglistig' src={IG}/>
+            </div>
+            <div className='namaig'>
+                <label className='txtwig'>Adindarfitrianisa</label>
+            </div>
+            </div>
             <div className='htopand'>
                 <label className='txtand'>&amp;</label>
             </div>
              <div className='wrappingimgl'>
-                <img className='imgl' src={bambang}/>
+             <a href="https://www.instagram.com/bembengggg/">
+                <img className='imgl' onClick={event =>  window.location.href=''} src={bambang}/>
+                </a>
             </div>
             <div className='animasitextl'>
             <div className='htoplptk'>
@@ -70,6 +83,14 @@ const Couple =()=>{
             <div className='htoplibu'>
                 <label className='txtlibu'>Ibu Nurwilis</label>
             </div> 
+            </div>
+            <div className='wraplIG'>
+            <div className='imglig'>
+            <img className='imglistlig'  src={IG}/>
+            </div>
+            <div className='namalig'>
+                <label className='txtlig'>Bembengggg</label>
+            </div>
             </div>
          </div>
 
