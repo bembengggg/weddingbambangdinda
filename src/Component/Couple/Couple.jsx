@@ -47,9 +47,24 @@ const Couple =()=>{
             <div className='htopand'>
                 <label className='txtand'>&amp;</label>
             </div>
-            <div className='wrappingimgl'>
+             <div className='wrappingimgl'>
                 <img className='imgl' src={bambang}/>
             </div>
+            <div className='htoplptk'>
+                <label className='txtlptk'>PUTRA KEEMPAT</label>
+            </div>
+            <div className='htopl'>
+                <label className='txtl'>BAMBANG KURNIAWAN WIBOWO,S.Kom</label>
+            </div>
+            <div className='htoplistl'>
+            <img className='imglistl' src={list}/>
+            </div>
+            <div className='htoplbpk'>
+                <label className='txtlbpk'>Bapak Supriyanto(Alm)</label>
+            </div>
+            <div className='htoplibu'>
+                <label className='txtlibu'>Ibu Nurwilis</label>
+            </div> 
          </div>
 
 
