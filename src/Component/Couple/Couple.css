@@ -65,7 +65,7 @@
 }
 .txtudg{
     font-size: 14px;
-    color: #CBC1A1;
+    color: #9C6615;
 }
 .htopbpk{
     height: auto;
@@ -110,20 +110,20 @@
 .txtw{
     font-size: 13px;
     margin-left: 27%;
-    color:#CBC1A1 ;
+    color:#9C6615 ;
 }
 .txtbpk{
     font-size: 14px;
-    color: #CBC1A1;
+    color: #9C6615;
 }
 .txtas{
-    color: #CBC1A1;
+    color: #9C6615;
 }
 .txtudg{
-    color: #CBC1A1;
+    color:#9C6615;
 }
 .txtb{
-    color: #CBC1A1;
+    color: #9C6615;
 }
 .htopb{
     height: auto;
@@ -153,8 +153,7 @@
     top: 40%;
     border-radius: 50%;
     overflow: hidden;
-    background-color: red;
-    border:3px solid #CBC1A1;
+    border:3px solid #9C6615;
 }
 .imgw{
     height: 100%;
@@ -174,6 +173,7 @@
 .txtwbpk{
     font-size: 11px;
     margin-left: 27%;
+    color: #9C6615;
 }
 .htopwptk{
     position: absolute;
@@ -188,6 +188,7 @@
 .txtptk{
     font-size: 11px;
     margin-left: 27%;
+    color: #9C6615;
 }
 .htopwibu{
     position: absolute;
@@ -202,4 +203,5 @@
 .txtwibu{
     font-size: 11px;
     margin-left: 27%;
+    color: #9C6615;
 }
