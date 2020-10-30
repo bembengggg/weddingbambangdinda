@@ -205,3 +205,42 @@
     margin-left: 27%;
     color: #9C6615;
 }
+
+.htopand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 48%;
+    width: 100%;
+    font-family: 'monofonto'; 
+    
+}
+.txtand{
+    font-size: 50px;
+    color: #9C6615;
+
+}
+.htopand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 57%;
+    width: 100%;
+    font-family: 'sweet'; 
+    
+}
+.wrappingimgl{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 65%;
+    border-radius: 50%;
+    overflow: hidden;
+    border:3px solid #9C6615;
+}
+.imgl{
+    height: 100%;
+    width: 100%;
+}

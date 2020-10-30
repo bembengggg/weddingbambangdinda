@@ -4,6 +4,7 @@ import './Couple.css';
 import couple from '../Cover/bgimage.jpg';
 import bismillah from '../../Assets/image/bismillah.png';
 import dinda from '../../Assets/image/dinda.PNG';
+import bambang from '../../Assets/image/bambang.PNG';
 import list from '../../Assets/image/list.png'
 
 const Couple =()=>{
@@ -42,6 +43,12 @@ const Couple =()=>{
             </div>
             <div className='htopwibu'>
                 <label className='txtwibu'>Ibu Ita Deswita</label>
+            </div>
+            <div className='htopand'>
+                <label className='txtand'>&amp;</label>
+            </div>
+            <div className='wrappingimgl'>
+                <img className='imgl' src={bambang}/>
             </div>
          </div>
 
