@@ -13,11 +13,11 @@ const Couple =()=>{
     return(
         <div className='wrapcover'>
            <img className='imgcouple' src={couple}/>
-           <div className='htop'>
-                <label className='txtb'>Bismillahirrahmanirrahim</label>
+           <div className='htopbsmlh'>
+                <label className='txtbsmlh'>Bismillahirrahmanirrahim</label>
             </div>
-            <div className='htopas'>
-                <label className='txtas'>Assalamu’alaikum warahmatullahi wabarakatuh</label>
+           <div className='htopasslm'>
+                <label className='txtasslm'>Assalaamu’alaikum Warahmatullaahi Wabarakaatuh</label>
             </div>
             <div className='htopudg'>
                 <label className='txtudg'>DENGAN MEMOHON RAHMAT ALLAH SWT, KAMI MENGUNDANG</label>

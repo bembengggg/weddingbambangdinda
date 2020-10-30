@@ -1,4 +1,4 @@
- .wrapcover{
+.wrapcover{
     width: 100%;
     height: 100%;
     position: relative;
@@ -20,7 +20,7 @@
     
 }
 
-.htop{
+.htopbsmlh{
     height: auto;
     position: absolute;
     display: flex;
@@ -32,9 +32,9 @@
     animation-name: animasi1;
     animation-duration: 3s;
     font-size: 30px;
-    font-family: 'Sweet';
+    font-family: 'Rattman';
 }
-.htopas{
+.htopasslm{
     height: auto;
     position: absolute;
     display: flex;
@@ -46,7 +46,7 @@
     animation-name: animasi1;
     animation-duration: 3s;
     font-size: 30px;
-    font-family: 'Sweet';
+    font-family: 'Rattman';
 }
 .htopudg{
     height: auto;
@@ -115,16 +115,15 @@
     font-size: 14px;
     color: #9C6615;
 }
-.txtas{
+.txtasslm{
     color: #9C6615;
-    font-family: 'Sweet';
+
 }
 .txtudg{
     color:#9C6615;
 }
-.txtb{
+.txtbsmlh{
     color: #9C6615;
-    font-family: 'Sweet';
 }
 .htopb{
     height: auto;
@@ -715,7 +714,7 @@
         font-family: 'sweet';
         font-size: 20px;
     }
-    .htopas{
+    .htopbsmlh{
         height: auto;
         position: absolute;
         display: flex;
