@@ -30,8 +30,11 @@ const Couple =()=>{
             </div>
             
             <div className='wrappingimg'>
-                <img className='imgw' onClick={event =>  window.location.href='https://www.instagram.com/adindarfitrianisa/'} src={dinda}/>
+            <a className='linkig' href='https://www.instagram.com/adindarfitrianisa/'>
+                <img className='imgw'  src={dinda}/>
+                </a>
             </div>
+            
             <div className='animasitext'>
             <div className='htopw'>
                 <label className='txtw'>ADINDA RIZKI FITRIANISA,S.Tr.Keb.</label>
@@ -60,13 +63,12 @@ const Couple =()=>{
             <div className='htopand'>
                 <label className='txtand'>&amp;</label>
             </div>
-            <a href='https://www.instagram.com/bembengggg/'>
-             <div className='wrappingimgl'>
 
-                <img className='imgl' src={bambang}/>
-                
+             <div className='wrappingimgl'>
+             <a className='linkig' href='https://www.instagram.com/bembengggg/'>
+                <img alt='nama' className='imgl' src={bambang}/>
+                </a> 
             </div>
-            </a>
             
             <div className='animasitextl'>
             <div className='htoplptk'>
