@@ -81,8 +81,31 @@
     font-family: 'monofonto';
     font-size: 20px;
 }
+.htopw{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 42%;
+    width: 100%;
+    font-family: 'monofonto';
+}
+.txtw{
+    font-size: 13px;
+    margin-left: 27%;
+    color:#CBC1A1 ;
+}
 .txtbpk{
     font-size: 14px;
+    color: #CBC1A1;
+}
+.txtas{
+    color: #CBC1A1;
+}
+.txtudg{
+    color: #CBC1A1;
+}
+.txtb{
     color: #CBC1A1;
 }
 .htopb{

@@ -27,6 +27,9 @@ const Couple =()=>{
             <div className='wrappingimg'>
                 <img className='imgw' src={dinda}/>
             </div>
+            <div className='htopw'>
+                <label className='txtw'>ADINDA RIZKI FITRIANISA,S.Tr.Keb.</label>
+            </div>
          </div>
 
 
