@@ -57,7 +57,7 @@ const Couple =()=>{
             <img className='imglistig' src={IG}/>
             </div>
             <div className='namaig'>
-                <label className='txtwig'>adindarfitrianisa</label>
+                <label className='txtwig'>Adindarfitrianisa</label>
             </div>
             </div>
             <div className='htopand'>
@@ -92,7 +92,7 @@ const Couple =()=>{
             <img className='imglistlig'  src={IG}/>
             </div>
             <div className='namalig'>
-                <label className='txtlig'>bembenggg</label>
+                <label className='txtlig'>Bembengggg</label>
             </div>
             </div>
          </div>
