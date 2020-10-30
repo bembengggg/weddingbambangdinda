@@ -107,13 +107,14 @@
 }
 
 .wrappingimg{
-    width: 20%;
-    height: 10%;
+    width: 30%;
+    height: 15%;
     position: absolute;
     top: 40%;
     border-radius: 50%;
     overflow: hidden;
     background-color: red;
+    border:3px solid #CBC1A1;
 }
 .imgw{
     height: 100%;
