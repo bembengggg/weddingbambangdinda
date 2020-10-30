@@ -4,6 +4,7 @@ import './Couple.css';
 import couple from '../Cover/bgimage.jpg';
 import bismillah from '../../Assets/image/bismillah.png';
 import dinda from '../../Assets/image/dinda.PNG';
+import list from '../../Assets/image/list.png'
 
 const Couple =()=>{
     return(
@@ -29,6 +30,9 @@ const Couple =()=>{
             </div>
             <div className='htopw'>
                 <label className='txtw'>ADINDA RIZKI FITRIANISA,S.Tr.Keb.</label>
+            </div>
+            <div className='htoplistw'>
+            <img className='imglistw' src={list}/>
             </div>
          </div>
 

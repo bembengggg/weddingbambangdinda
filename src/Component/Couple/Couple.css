@@ -90,6 +90,23 @@
     width: 100%;
     font-family: 'monofonto';
 }
+.htoplistw{
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 27%;
+    width: 100%;
+    height: 40%;
+    margin-right: auto;
+
+    
+}
+.imglistw{
+    width: 50%;
+    margin-left: 25%;
+}
 .txtw{
     font-size: 13px;
     margin-left: 27%;
