@@ -17,6 +17,8 @@
     src: url('../../Assets/font/PlaylistScript.ttf') format('truetype');
     font-family: 'sweet';
     src: url('../../Assets/font/Sweet.ttf') format('truetype');
+    font-family: 'monofonto';
+    src: url('../../Assets/font/monofonto.ttf') format('truetype');
 }
 
 .htop{
@@ -58,11 +60,11 @@
     margin-right: auto;
     animation-name: animasi1;
     animation-duration: 3s;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'monofonto';
     font-size: 20px;
 }
 .txtudg{
-    font-size: 11px;
+    font-size: 14px;
     color: #CBC1A1;
 }
 .htopbpk{
@@ -76,7 +78,7 @@
     margin-right: auto;
     animation-name: animasi1;
     animation-duration: 3s;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'monofonto';
     font-size: 20px;
 }
 .txtbpk{

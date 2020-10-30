@@ -18,7 +18,7 @@ const Couple =()=>{
                 <label className='txtudg'>DENGAN MEMOHON RAHMAT ALLAH SWT, KAMI MENGUNDANG</label>
             </div>
             <div className='htopbpk'>
-                <label className='txtbpk'>BAPAK/IBU/SAUDARA/i ACARA RESEPSI PERNIKAHAN</label>
+                <label className='txtbpk'>BAPAK/IBU/SAUDARA/I ACARA RESEPSI PERNIKAHAN</label>
             </div>
             <div className='htopb'>
             <img className='htopimg' src={bismillah}/>
