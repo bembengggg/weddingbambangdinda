@@ -12,7 +12,7 @@ import IG from '../../Assets/image/IG.png';
 const Couple =()=>{
     return(
         <div className='wrapcover'>
-           <img className='img1' src={couple}/>
+           <img className='imgcouple' src={couple}/>
            <div className='htop'>
                 <label className='txtb'>Bismillahirrahmanirrahim</label>
             </div>
