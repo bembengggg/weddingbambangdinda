@@ -301,5 +301,13 @@
     color: #9C6615;
 }
 
+.animasitext{
+    animation-name: animasitext;
+    animation-duration: 2s;
+}
+.animasitextl{
+    animation-name: animasitext;
+    animation-duration: 2s;
 
+}
 

@@ -5,7 +5,8 @@ import couple from '../Cover/bgimage.jpg';
 import bismillah from '../../Assets/image/bismillah.png';
 import dinda from '../../Assets/image/dinda.PNG';
 import bambang from '../../Assets/image/bambang.PNG';
-import list from '../../Assets/image/list.png'
+import list from '../../Assets/image/list.png';
+
 
 const Couple =()=>{
     return(
@@ -26,9 +27,11 @@ const Couple =()=>{
             <div className='htopb'>
             <img className='htopimg' src={bismillah}/>
             </div>
+            
             <div className='wrappingimg'>
                 <img className='imgw' src={dinda}/>
             </div>
+            <div className='animasitext'>
             <div className='htopw'>
                 <label className='txtw'>ADINDA RIZKI FITRIANISA,S.Tr.Keb.</label>
             </div>
@@ -44,12 +47,14 @@ const Couple =()=>{
             <div className='htopwibu'>
                 <label className='txtwibu'>Ibu Ita Deswita</label>
             </div>
+            </div>
             <div className='htopand'>
                 <label className='txtand'>&amp;</label>
             </div>
              <div className='wrappingimgl'>
                 <img className='imgl' src={bambang}/>
             </div>
+            <div className='animasitextl'>
             <div className='htoplptk'>
                 <label className='txtlptk'>PUTRA KEEMPAT</label>
             </div>
@@ -65,6 +70,7 @@ const Couple =()=>{
             <div className='htoplibu'>
                 <label className='txtlibu'>Ibu Nurwilis</label>
             </div> 
+            </div>
          </div>
 
 

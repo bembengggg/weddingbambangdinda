@@ -185,7 +185,15 @@
     0%{transform: translateY(30px);}
     100%{transform: translateY(0px);}
 }
-
+@keyframes animasitext{
+from{
+    margin-left: -50%;
+    opacity: 0;
+}
+to{
+    margin-left: 0%;
+}
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
