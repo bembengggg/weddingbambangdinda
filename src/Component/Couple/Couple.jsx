@@ -34,6 +34,15 @@ const Couple =()=>{
             <div className='htoplistw'>
             <img className='imglistw' src={list}/>
             </div>
+            <div className='htopwptk'>
+                <label className='txtptk'>PUTRI KEDUA</label>
+            </div>
+            <div className='htopwbpk'>
+                <label className='txtwbpk'>Bapak Agus Heryanto,Bc.Ip.,S.H.,MH</label>
+            </div>
+            <div className='htopwibu'>
+                <label className='txtwibu'>Ibu Ita Deswita</label>
+            </div>
          </div>
 
 
