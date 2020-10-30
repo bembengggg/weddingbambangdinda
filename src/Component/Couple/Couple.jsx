@@ -30,9 +30,7 @@ const Couple =()=>{
             </div>
             
             <div className='wrappingimg'>
-            <a href="https://www.instagram.com/adindarfitrianisa/">
-                <img className='imgw' src={dinda}/>
-            </a>
+                <img className='imgw' onClick={event =>  window.location.href='https://www.instagram.com/adindarfitrianisa/'} src={dinda}/>
             </div>
             <div className='animasitext'>
             <div className='htopw'>
@@ -56,17 +54,20 @@ const Couple =()=>{
             <img className='imglistig' src={IG}/>
             </div>
             <div className='namaig'>
-                <label className='txtwig'>Adindarfitrianisa</label>
+                <label className='txtwig'>adindarfitrianisa</label>
             </div>
             </div>
             <div className='htopand'>
                 <label className='txtand'>&amp;</label>
             </div>
+            <a href='https://www.instagram.com/bembengggg/'>
              <div className='wrappingimgl'>
-             <a href="https://www.instagram.com/bembengggg/">
-                <img className='imgl' onClick={event =>  window.location.href=''} src={bambang}/>
-                </a>
+
+                <img className='imgl' src={bambang}/>
+                
             </div>
+            </a>
+            
             <div className='animasitextl'>
             <div className='htoplptk'>
                 <label className='txtlptk'>PUTRA KEEMPAT</label>
@@ -89,7 +90,7 @@ const Couple =()=>{
             <img className='imglistlig'  src={IG}/>
             </div>
             <div className='namalig'>
-                <label className='txtlig'>Bembengggg</label>
+                <label className='txtlig'>bembenggg</label>
             </div>
             </div>
          </div>
