@@ -10,14 +10,14 @@ class Cover extends Component{
         super(props);
 
 
-        
+
     }
       render(){
     return(
         <div className='wrapcover'>
-           <img className='img1' src={cover}/>
+           <img className='imgcover' src={cover}/>
            <div className='form7'>
-                <label className='labeljudul'>Are Getting Married</label>
+                <label className='labeljudul'></label>
             </div>
            <div className='form8'>
                 <label className='labelnpw'>Adinda Rizki Fitrianisa</label>
