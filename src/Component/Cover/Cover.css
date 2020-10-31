@@ -8,7 +8,7 @@
 .imgcover{
     display: block;
         width: 100%;
-        height: 770px;
+        height: 100%;
 }
 
 .imgperson{
@@ -24,84 +24,6 @@
     height: 100%;
     opacity: 0.4;
 }
-.form4{
-    height: auto;
-    position: absolute;
-    top: 65%;
-    padding-bottom: 20%;
-    width: 100%;
-    margin-right: auto;
-}
-
-.posisi{
-    position: absolute;
-    width: 100%;
-    height: 25%;
-    top: 50%;
-
-}
-.btnopens{
-    position: absolute;
-    height:50%;
-    width: 50%;
-    justify-content: center;
-    margin-left: 25%;
-    margin-right: auto;
-    border-radius: 11px;
-    font-weight: bold;
-    background-color: #FFDDA1;
-    font-family: 'fredoka one';
-    
-
-}
-.form5{
-    height: auto;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 55%;
-    width: 100%;
-    margin-right: auto;
-    font-family: 'fredoka one';
-    font-size: 15px;
-}
-.labelnama{
-    color:#545454;
-}
-@media only screen and (min-height: 1520px) and (max-height:1520px) {
-    .labelnpl{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 35px;
-    }
-    .labelnpw{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 35px;
-    }
-    .labeland{
-    
-        color: #CBC1A1;
-        font-family: aquate;
-        font-size: 40px;
-    }
-
-}
-
-.form6{
-    height: auto;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 60%;
-    width: 100%;
-    margin-right: auto;
-    font-family: 'fredoka one';
-    font-size: 15px;
-}
-
 .form7{
     height: auto;
     position: absolute;
@@ -120,22 +42,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 35%;
+    top: 15%;
     width: 100%;
     margin-right: auto;
     animation-name: animasi1;
-    animation-duration: 3s;
-}
-.form10{
-    height: auto;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 41%;
-    width: 100%;
-    margin-right: auto;
-    animation-name: animasi2;
     animation-duration: 3s;
 }
 .form9{
@@ -144,7 +54,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 40%;
+    top: 35%;
+    width: 100%;
+    margin-right: auto;
+    animation-name: animasi2;
+    animation-duration: 3s;
+}
+.form10{
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
     width: 100%;
     margin-right: auto;
     animation-name: animasi2;
@@ -156,12 +78,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 52%;
+    top: 68%;
     width: 100%;
     margin-right: auto;
     animation-name: animasi2;
     animation-duration: 3s;
 }
+
+.posisi{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 40%;
+
+}
+
+.labeltgl{
+    color:black;
+    font-family: 'fredoka one';
+}
+.labelnpl{
+    color: #9C6615;
+    font-family: 'aquate';
+    font-size: 100px;
+}
+.labelnpw{
+    color: #9C6615;
+    font-size: 100px;
+    font-family: 'aquate';
+}
+.labeland{
+
+    color: #9C6615;
+    font-family: 'aquate';
+    font-size: 70px;
+}
+
+
+
+
+
 
 @font-face{
     font-family: "LeckerliOne-Regular";
@@ -170,30 +126,7 @@
     src: url('../../Assets/font/Aquate.ttf');
 
 }
-.labeltempat{
-    color:#545454;
-}
-.labelnpl{
-    color: #9C6615;
-    font-family: 'aquate';
-    font-size: 35px;
-}
-.labelnpw{
-    color: #9C6615;
-    font-size: 40px;
-    font-family: 'aquate';
-}
-.labeland{
 
-    color: #9C6615;
-    font-family: 'aquate';
-    font-size: 40px;
-}
-.labeltgl{
-
-    font-family: 'fredoka one';
-    font-size: 15px;
-}
 @keyframes animasi1{
     0%{transform: translateY(0px);}
     50%{transform: translateY(15px);}
@@ -222,382 +155,26 @@ to{
 
    
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 975px;
-    
-    }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 970px;
-    }
 
-    
- }
- @media only screen and (min-width: 320px) and (max-height: 600px) {
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .wrapcover{
-        
         width: 100%;
-        height: 975px;
+        height: 120%;
+        position: relative;
+        top: 70%;
     
     }
-    .form7{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 25%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form8{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 25%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form10{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 41%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .form9{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 35%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 970px;
-    }
-    .labelnpl{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 20px;
-    }
-    .labelnpw{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 20px;
-    }
-    .labeland{
-    
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 20px;
-    }
+    .imgcover{
+            position: relative;
+            width: 100%;
+            height: 1500px;
 
+    }
     
- }
- @media only screen and (min-height: 568px) and (max-height: 568px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 975px;
-    
-    }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 970px;
-    }
-    .form7{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 25%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form8{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 30%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form10{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 41%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .form9{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 35%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .labeltempat{
-        color:#545454;
-    }
-    .labelnpl{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 30px;
-    }
-    .labelnpw{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 35px;
-    }
-    .labeland{
-    
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 40px;
-    }
-    .labeltgl{
-    
-        font-family: 'fredoka one';
-        font-size: 15px;
-    }
-
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 975px;
-    
-    }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 970px;
-    }
-
-    
- }
- @media only screen and (min-height: 1520px) and (max-height: 1520px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 1520px;
-    
-    }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 1520px;
-    }
-    .form7{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 25%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form8{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 30%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form10{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 41%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .form9{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 35%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .labeltempat{
-        color:#545454;
-    }
-    .labelnpl{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 35px;
-    }
-    .labelnpw{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 35px;
-    }
-    .labeland{
-    
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 40px;
-    }
-    .labeltgl{
-    
-        font-family: 'fredoka one';
-        font-size: 15px;
-    }
-
-}
-
-@media only screen and (min-width: 720px) and (max-width: 720px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 1520px;
-    
-    }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 1520px;
-    }
-    .form7{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 25%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form8{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 30%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form10{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 41%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .form9{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 35%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    .labeltempat{
-        color:#545454;
-    }
-    .labelnpl{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 35px;
-    }
-    .labelnpw{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 35px;
-    }
-    .labeland{
-    
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 40px;
-    }
-    .labeltgl{
-    
-        font-family: 'fredoka one';
-        font-size: 15px;
-    }
-
-}
-@media only screen and (min-height: 400px) and (max-width: 1000px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 100%;
-    }
     .imgperson{
-        width: 95.5%;
+        width: 96.5%;
         height: 100%;
         position: absolute;
         border:10px solid #FFDDA1;
@@ -609,16 +186,129 @@ to{
         height: 100%;
         opacity: 0.4;
     }
+    .form7{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 2%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form8{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 15%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form9{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 30%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form10{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 45%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form11{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 57%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    
     .posisi{
         position: absolute;
         width: 100%;
         height: 25%;
-        top: 43%;
+        top: 40%;
+    
     }
-    .imgcover {
-        display: block;
+    
+    .labeltgl{
+        color:black;
+        font-family: 'fredoka one';
+        font-size: 10px;
+    }
+    .labelnpl{
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 20px;
+    }
+    .labelnpw{
+        color: #9C6615;
+        font-size: 20px;
+        font-family: 'aquate';
+    }
+    .labeland{
+    
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 25px;
+    }
+    
+    
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .wrapcover{
         width: 100%;
-        height: 1000px;
+        height: 100%;
+        position: relative;
+        top: 70%;
+    
+    }
+    .imgcover{
+        display: block;
+            width: 100%;
+            height: 100%;
+    }
+    
+    .imgperson{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border:10px solid #FFDDA1;
+        top: 0%;
+        border-radius: 1.7%;
+    }
+    .imgpict{
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
     }
     .form7{
         height: auto;
@@ -638,35 +328,10 @@ to{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 25%;
+        top: 15%;
         width: 100%;
         margin-right: auto;
         animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form10{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 60%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
-        animation-duration: 3s;
-    }
-    }
-    .form11{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 83%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
         animation-duration: 3s;
     }
     .form9{
@@ -675,56 +340,23 @@ to{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 43%;
+        top: 35%;
         width: 100%;
         margin-right: auto;
         animation-name: animasi2;
         animation-duration: 3s;
     }
-    .labeltempat{
-        color:#545454;
-    }
-    .labelnpl{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 27px;
-    }
-    .labelnpw{
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 30px;
-    }
-    .labeland{
-    
-        color: #9C6615;
-        font-family: aquate;
-        font-size: 30px;
-    }
-    .labeltgl{
-    
-        font-family: 'fredoka one';
-        font-size: 15px;
-    }
-
-
-@media only screen and (min-height: 653px) and (max-height: 700px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 700px;
-    
-    }
-    .posisi{
+    .form10{
+        height: auto;
         position: absolute;
-        width: 100%;
-        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 45%;
-    
-    }
-    .imgcover {
-        display: block;
         width: 100%;
-        height: 1000px;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
     }
     .form11{
         height: auto;
@@ -732,23 +364,86 @@ to{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 66%;
+        top: 68%;
         width: 100%;
         margin-right: auto;
         animation-name: animasi2;
         animation-duration: 3s;
     }
+    
+    .posisi{
+        position: absolute;
+        width: 100%;
+        height: 25%;
+        top: 40%;
+    
+    }
+    
+    .labeltgl{
+        color:black;
+        font-family: 'fredoka one';
+    }
+    .labelnpl{
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 100px;
+    }
+    .labelnpw{
+        color: #9C6615;
+        font-size: 100px;
+        font-family: 'aquate';
+    }
+    .labeland{
+    
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 70px;
+    }
+    
+    
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wrapcover{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 70%;
+    
+    }
+    .imgcover{
+        display: block;
+            width: 100%;
+            height: 100%;
+    }
+    
+    .imgperson{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border:10px solid #FFDDA1;
+        top: 0%;
+        border-radius: 1.7%;
+    }
+    .imgpict{
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
     .form7{
         height: auto;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 4%;
-    width: 100%;
-    margin-right: auto;
-    animation-name: animasi1;
-    animation-duration: 3s;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 10%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
     }
     .form8{
         height: auto;
@@ -756,22 +451,10 @@ to{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 16%;
+        top: 15%;
         width: 100%;
         margin-right: auto;
         animation-name: animasi1;
-        animation-duration: 3s;
-    }
-    .form10{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 50%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasi2;
         animation-duration: 3s;
     }
     .form9{
@@ -780,76 +463,311 @@ to{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 32%;
+        top: 35%;
         width: 100%;
         margin-right: auto;
         animation-name: animasi2;
         animation-duration: 3s;
     }
-    .labeltempat{
-        color:#545454;
+    .form10{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 45%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form11{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 68%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    
+    .posisi{
+        position: absolute;
+        width: 100%;
+        height: 25%;
+        top: 40%;
+    
+    }
+    
+    .labeltgl{
+        color:black;
+        font-family: 'fredoka one';
     }
     .labelnpl{
         color: #9C6615;
-        font-family: aquate;
-        font-size: 27px;
+        font-family: 'aquate';
+        font-size: 100px;
     }
     .labelnpw{
         color: #9C6615;
-        font-family: aquate;
-        font-size: 33px;
+        font-size: 100px;
+        font-family: 'aquate';
     }
     .labeland{
     
         color: #9C6615;
-    font-family: aquate;
-    font-size: 34px;
+        font-family: 'aquate';
+        font-size: 70px;
     }
-    .labeltgl{
     
-        font-family: 'fredoka one';
-        font-size: 15px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .wrapcover{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 70%;
+    
     }
+    .imgcover{
+        display: block;
+            width: 100%;
+            height: 100%;
+    }
+    
+    .imgperson{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border:10px solid #FFDDA1;
+        top: 0%;
+        border-radius: 1.7%;
+    }
+    .imgpict{
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+    .form7{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 10%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form8{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 15%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form9{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 35%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form10{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 45%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form11{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 68%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    
+    .posisi{
+        position: absolute;
+        width: 100%;
+        height: 25%;
+        top: 40%;
+    
+    }
+    
+    .labeltgl{
+        color:black;
+        font-family: 'fredoka one';
+    }
+    .labelnpl{
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 100px;
+    }
+    .labelnpw{
+        color: #9C6615;
+        font-size: 100px;
+        font-family: 'aquate';
+    }
+    .labeland{
+    
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 70px;
+    }
+    
+    
+    
+    
 
 }
 
- @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .wrapcover{
-        
-        width: 100%;
-        height: 1435px;
-    
-    }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 1435px;
-    }
- }
- @media only screen and (min-width: 992px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     .wrapcover{
         width: 100%;
-        height: 2285px;
+        height: 100%;
+        position: relative;
+        top: 70%;
     
     }
-    .imgcover {
+    .imgcover{
         display: block;
-        width: 100%;
-        height: 2285px;
+            width: 100%;
+            height: 100%;
     }
- }
- @media only screen and (min-device-height: 2960px) {
-    .wrapcover{
+    
+    .imgperson{
         width: 100%;
-        height: 2900px;
+        height: 100%;
+        position: absolute;
+        border:10px solid #FFDDA1;
+        top: 0%;
+        border-radius: 1.7%;
+    }
+    .imgpict{
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+    .form7{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 10%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form8{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 15%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi1;
+        animation-duration: 3s;
+    }
+    .form9{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 35%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form10{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 45%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    .form11{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 68%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasi2;
+        animation-duration: 3s;
+    }
+    
+    .posisi{
+        position: absolute;
+        width: 100%;
+        height: 25%;
+        top: 40%;
     
     }
-    .imgcover {
-        display: block;
-        width: 100%;
-        height: 2900px;
+    
+    .labeltgl{
+        color:black;
+        font-family: 'fredoka one';
     }
- }
- 
-
- 
+    .labelnpl{
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 100px;
+    }
+    .labelnpw{
+        color: #9C6615;
+        font-size: 100px;
+        font-family: 'aquate';
+    }
+    .labeland{
+    
+        color: #9C6615;
+        font-family: 'aquate';
+        font-size: 70px;
+    }
+    
+    
+    
+    
+}
