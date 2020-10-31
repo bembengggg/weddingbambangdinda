@@ -469,12 +469,12 @@
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        border-style: dotted;
     
         
     }
     .labelnama{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
@@ -485,7 +485,7 @@
         
     }
     .labeltempat{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
@@ -493,7 +493,7 @@
         font-family: 'fredoka one';
     }
     .labeltempatku{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
