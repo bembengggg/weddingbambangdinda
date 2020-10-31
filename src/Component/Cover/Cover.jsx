@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './Cover.css';
 import cover from '../Cover/bgimage.jpg';
+import abadi from '../../Assets/image/ABADI.PNG';
+
 
 
 class Cover extends Component{
@@ -16,6 +18,9 @@ class Cover extends Component{
     return(
         <div className='wrapcover'>
            <img className='imgcover' src={cover}/>
+           <div className='imgperson'>
+           <img className='imgpict' src={abadi}/>
+            </div>
            <div className='form7'>
                 <label className='labeljudul'></label>
             </div>
