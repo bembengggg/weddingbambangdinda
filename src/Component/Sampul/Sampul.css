@@ -6,7 +6,7 @@
 
 }
  
- .container{
+.container{
     width: 100%;
     height: 100%;
     position: relative;
@@ -37,7 +37,9 @@
     border-radius: 5px;
     font-weight: bold;
     border-color: #FFDDA1;
-    border-style: groove;
+    box-shadow: black;
+    border-style: dotted;
+    
 
     
 }
@@ -47,7 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Rattman';
+    font-family: 'fredoka one';
     top: 50%;
 
     
@@ -58,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Rattman';
+    font-family: 'fredoka one';
 }
 .labeltempatku{
     font-size: 30px;
@@ -66,7 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Rattman';
+    font-family: 'fredoka one';
 }
 
 .bksbtnudg{
@@ -136,43 +138,44 @@
         }
     .bkslabelnama{
         position: absolute;
-        height:140%;
-        width: 85%;
+        height:100%;
+        width: 70%;
         justify-content: center;
-        margin-left: 7%;
+        margin-left: 15%;
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        box-shadow: black;
+        border-style: dotted;
     
         
     }
     .labelnama{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
     }
     .labeltempat{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
@@ -246,11 +249,12 @@
         height:110%;
         width: 85%;
         justify-content: center;
-        margin-left: 7%;
+        margin-left: 8%;
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        box-shadow: black;
+        border-style: dotted;
     
         
     }
@@ -260,7 +264,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
@@ -271,7 +275,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
         font-size: 30px;
@@ -279,7 +283,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
@@ -357,7 +361,7 @@
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        border-style: dotted;
     
         
     }
@@ -367,7 +371,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
@@ -378,7 +382,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
         font-size: 30px;
@@ -386,7 +390,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
@@ -475,7 +479,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
@@ -486,7 +490,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
         font-size: 30px;
@@ -494,7 +498,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
@@ -565,43 +569,44 @@
         }
     .bkslabelnama{
         position: absolute;
-        height:140%;
-        width: 85%;
+        height:100%;
+        width: 70%;
         justify-content: center;
-        margin-left: 7%;
+        margin-left: 15%;
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        box-shadow: black;
+        border-style: dotted;
     
         
     }
     .labelnama{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
     }
     .labeltempat{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
@@ -673,43 +678,44 @@
         }
     .bkslabelnama{
         position: absolute;
-        height:140%;
-        width: 85%;
+        height:100%;
+        width: 70%;
         justify-content: center;
-        margin-left: 7%;
+        margin-left: 15%;
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        box-shadow: black;
+        border-style: dotted;
     
         
     }
     .labelnama{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
     }
     .labeltempat{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
@@ -780,43 +786,44 @@
         }
     .bkslabelnama{
         position: absolute;
-        height:140%;
-        width: 85%;
+        height:100%;
+        width: 70%;
         justify-content: center;
-        margin-left: 7%;
+        margin-left: 15%;
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        box-shadow: black;
+        border-style: dotted;
     
         
     }
     .labelnama{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
     }
     .labeltempat{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
@@ -887,43 +894,44 @@
         }
     .bkslabelnama{
         position: absolute;
-        height:140%;
-        width: 85%;
+        height:100%;
+        width: 70%;
         justify-content: center;
-        margin-left: 7%;
+        margin-left: 15%;
         border-radius: 5px;
         font-weight: bold;
         border-color: #FFDDA1;
-        border-style: groove;
+        box-shadow: black;
+        border-style: dotted;
     
         
     }
     .labelnama{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
         top: 50%;
     
         
     }
     .labeltempat{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     .labeltempatku{
-        font-size: 30px;
+        font-size: 15px;
         color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Rattman';
+        font-family: 'fredoka one';
     }
     
     .bksbtnudg{
