@@ -15,14 +15,12 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    border:10px solid #FFDDA1;
     top: 0%;
     border-radius: 1.7%;
 }
 .imgpict{
     width: 100%;
     height: 100%;
-    opacity: 0.4;
 }
 .form4{
     height: auto;
@@ -199,8 +197,15 @@
     50%{transform: translateY(15px);}
 }
 @keyframes animasi2{
-    0%{transform: translateY(35px);}
-    100%{transform: translateY(0px);}
+    from{
+    transform: translateY(35px);
+    opacity: 0;
+    
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 @keyframes animasitext{
 from{
@@ -592,22 +597,34 @@ to{
 }
 @media only screen and (max-height: 1000px) and (max-width: 1000px) {
     .wrapcover{
-        
         width: 100%;
         height: 100%;
     }
     .imgperson{
-        width: 95.5%;
-        height: 100%;
-        position: absolute;
-        border:10px solid #FFDDA1;
-        top: 0%;
-        border-radius: 1.7%;
+        width: 97.5%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    border: 5px solid #FFDDA1;
+    border-radius: 1.7%;
+    }
+    .imgperson1{
+    width: 80%;
+    height: 25%;
+    position: absolute;
+    top: 45%;
+    border-radius: 10%;
+    background-color: black;
+    opacity: 0.4;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    animation-name: animasi1;
+    animation-duration:3s ;
     }
     .imgpict{
         width: 100%;
         height: 100%;
-        opacity: 0.4;
     }
     .posisi{
         position: absolute;
@@ -629,7 +646,7 @@ to{
         top: 10%;
         width: 100%;
         margin-right: auto;
-        animation-name: animasi1;
+        animation-name: animasitext;
         animation-duration: 3s;
     }
     .form8{
@@ -641,7 +658,7 @@ to{
         top: 25%;
         width: 100%;
         margin-right: auto;
-        animation-name: animasi1;
+        animation-name: animasitext;
         animation-duration: 3s;
     }
     .form10{
@@ -677,7 +694,7 @@ to{
         align-items: center;
         top: 43%;
         width: 100%;
-        margin-right: auto;
+        margin-right: 50%;
         animation-name: animasi2;
         animation-duration: 3s;
     }
@@ -685,25 +702,28 @@ to{
         color:#545454;
     }
     .labelnpl{
-        color: #9C6615;
+        color: #FFDDA1;
         font-family: aquate;
         font-size: 27px;
     }
     .labelnpw{
-        color: #9C6615;
+        color: #FFDDA1;
         font-family: aquate;
         font-size: 30px;
     }
     .labeland{
     
-        color: #9C6615;
+        color: #FFDDA1;
         font-family: aquate;
         font-size: 30px;
     }
     .labeltgl{
-    
+        color: #FFDDA1;
         font-family: 'fredoka one';
         font-size: 15px;
+    }
+    .labeljudul{
+        color: #FFDDA1;
     }
 
 }

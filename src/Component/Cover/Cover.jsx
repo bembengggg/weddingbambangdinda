@@ -17,10 +17,11 @@ class Cover extends Component{
       render(){
     return(
         <div className='wrapcover'>
-           <img className='imgcover' src={cover}/>
-           
+           <img className='imgcover' src={cover}/>  
            <div className='imgperson'>
            <img className='imgpict' src={abadi}/>
+            </div>
+            <div className='imgperson1'>
             </div>
             <div className='posisi'>
            <div className='form7'>
