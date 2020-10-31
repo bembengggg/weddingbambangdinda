@@ -18,11 +18,13 @@ class Cover extends Component{
     return(
         <div className='wrapcover'>
            <img className='imgcover' src={cover}/>
+           
            <div className='imgperson'>
            <img className='imgpict' src={abadi}/>
             </div>
+            <div className='posisi'>
            <div className='form7'>
-                <label className='labeljudul'></label>
+                <label className='labeljudul'>Are Getting Married</label>
             </div>
            <div className='form8'>
                 <label className='labelnpw'>Adinda Rizki Fitrianisa</label>
@@ -35,6 +37,7 @@ class Cover extends Component{
             </div>
             <div className='form11'>
                 <label className='labeltgl'>09.January.2021 | Sasono Mulyo</label>
+            </div>
             </div>
          
          </div>
