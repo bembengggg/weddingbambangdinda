@@ -592,11 +592,11 @@ to{
 @media only screen and (max-height: 1000px) and (max-width: 1000px) {
     .wrapcover{
         
-        width: 95%;
+        width: 100%;
         height: 100%;
     }
     .imgperson{
-    width: 95%;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0%;
