@@ -7,7 +7,9 @@ class PageNotFound extends Component{
     render(){
         return(
             <div className='container'>
-             Anda Tidak Berhak Menerima Undangan
+                <div className='lbltmptnot'>
+                <label className='labelnot'>ANDA TIDAK TERMASUK DALAM UNDANGAN</label>
+                </div>
             </div>
 
      

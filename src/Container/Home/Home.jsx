@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import NavBottom from '../../Component/NavBottom/NavBottom';
 import Cover from '../../Component/Cover/Cover';
 import Sampul from '../../Component/Sampul/Sampul';
+import NOT from '../Home/PageNotFound';
 
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
@@ -12,8 +13,9 @@ class Home extends Component{
     render(){
         return(
             <div className='container'>
-                <Router>
+            <Router>
             <Route path="/:nama/:tempat" exact  render={props=><Sampul{...props}/>}/>
+            <Route path="/" exact  component={NOT}/>
             </Router>
             </div>
             // <Router>
