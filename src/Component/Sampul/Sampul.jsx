@@ -3,7 +3,7 @@ import './Sampul.css';
 import container from '../Sampul/container.jpg';
 import audio from '../../Assets/MP3/sepertiga.mp3';
 import NavBottom from '../../Component/NavBottom/NavBottom';
-import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Link,Redirect} from 'react-router-dom';
 
 
 class Sampul extends Component{
@@ -33,9 +33,10 @@ class Sampul extends Component{
     return(
 
           <div>
-           
+           <NavBottom/>
           </div>    
     );}else {
+      
       console.log(this.props)
         return (
           
@@ -58,8 +59,7 @@ class Sampul extends Component{
            </div>
   
            <div className='bksbtnudg'>
-  
-           <Link to='/Cover'><button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button></Link>
+         <button className="btnudg" onClick={this.playAudio} >  <span>BUKA UNDANGAN</span></button>
               
            </div>
   

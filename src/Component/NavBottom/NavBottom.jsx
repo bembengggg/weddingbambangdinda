@@ -18,53 +18,95 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
-    constructor(props) {
-        super(props);
-
-        
-
+    constructor() {
+        super();
+        this.state = {
+          showHideDemo1: true,
+          showHideDemo2: false,
+          showHideDemo3: false,
+          showHideDemo4: false,
+          showHideDemo5: false,
+        };
+        this.hideComponent = this.hideComponent.bind(this);
       }
-      componentDidMount() {
-    
+        
+      hideComponent(name) {
+        console.log(name);
+        switch (name) {
+          case "showHideDemo1":
+            this.setState({ showHideDemo1: !this.state.showHideDemo1 });
+            this.setState({showHideDemo2: false  });
+            this.setState({showHideDemo3: false  });
+            this.setState({showHideDemo4: false  });
+            this.setState({showHideDemo5: false  });
+            break;
+          case "showHideDemo2":
+            this.setState({ showHideDemo2: !this.state.showHideDemo2 });
+            this.setState({showHideDemo1: false  });
+            this.setState({showHideDemo3: false  });
+            this.setState({showHideDemo4: false  });
+            this.setState({showHideDemo5: false  });
+            break;
+          case "showHideDemo3":
+            this.setState({ showHideDemo3: !this.state.showHideDemo3 });
+            this.setState({showHideDemo1: false  });
+            this.setState({showHideDemo2: false  });
+            this.setState({showHideDemo4: false  });
+            this.setState({showHideDemo5: false  });
+            break;
+            case "showHideDemo4":
+                this.setState({ showHideDemo4: !this.state.showHideDemo4 });
+                this.setState({showHideDemo1: false  });
+                this.setState({showHideDemo2: false  });
+                this.setState({showHideDemo3: false  });
+                this.setState({showHideDemo5: false  });
+                break;
+          case "showHideDemo5":
+                    this.setState({ showHideDemo5: !this.state.showHideDemo5 });
+                    this.setState({showHideDemo1: false  });
+                    this.setState({showHideDemo2: false  });
+                    this.setState({showHideDemo3: false  });
+                    this.setState({showHideDemo4: false  });
+                    break;
+        }
       }
     render(){
+        const { showHideDemo1, showHideDemo2, showHideDemo3,showHideDemo4,showHideDemo5 } = this.state;
         return(
-            <Router>   
-                                             
-                <Fragment>
-                
-                    <Route path="/Home" component={Cover}/>
-                    <Route path="/Cover" component={Cover}/>
-                    <Route path="/Couple" component={Couple}/>
-                    <Route path="/Gallery" component={Gallery}/>
-                    <Route path="/Place" component={Place}/>
-                    <Route path="/Messages" component={Messages}/>
+            <Router>                            
+            {showHideDemo1 && <Cover />}
+            {showHideDemo2 && <Couple />}
+            {showHideDemo3 && <Place />}
+            {showHideDemo4 && <Gallery />}
+            {showHideDemo5 && <Messages />}
+
                     
                         <nav className="nav">
-                             <Link to="/Home" className="nav__link">
+                             <Link onClick={() => this.hideComponent("showHideDemo1")} className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
                                     <span class="nav__text">HOME</span>
                              </Link>   
-                             <Link to="/Couple" className="nav__link">
+                             <Link  onClick={() => this.hideComponent("showHideDemo2")} className="nav__link">
                                    <FontAwesomeIcon icon={faHeart}  className="nav__icon" />
                                     <span class="nav__text">COUPLE</span>
                              </Link>  
-                             <Link to="/Place" className="nav__link">
+                             <Link  onClick={() => this.hideComponent("showHideDemo3")} className="nav__link">
                                     <FontAwesomeIcon icon={faMapMarkerAlt}  className="nav__icon" />
                                      <span class="nav__text">PLACE</span>
                              </Link>  
-                            <Link to="/Gallery" className="nav__link">
+                            <Link  onClick={() => this.hideComponent("showHideDemo4")} className="nav__link">
                                     <FontAwesomeIcon icon={faImages}  className="nav__icon" />
                                     <span class="nav__text">GALLERY</span>
                             </Link> 
-                            <Link to="/Messages" className="nav__link">
+                            <Link  onClick={() => this.hideComponent("showHideDemo5")} className="nav__link">
                                     <FontAwesomeIcon icon={faEnvelope}  className="nav__icon" />
                                     <span class="nav__text">MESSAGES</span>
                             </Link>    
  
                             </nav> 
-                </Fragment>
-                <Route path="/:nama/:tempat" exact  component={Sampul}/>
+                
+                
+                
           
             </Router>
      

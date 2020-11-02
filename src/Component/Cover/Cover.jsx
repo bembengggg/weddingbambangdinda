@@ -16,6 +16,7 @@ class Cover extends Component{
     }
       render(){
     return(
+        
         <div className='wrapcover'>
            <img className='imgcover' src={cover}/>  
            <div className='imgperson'>
