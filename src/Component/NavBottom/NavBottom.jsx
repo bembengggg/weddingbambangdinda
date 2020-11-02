@@ -1,7 +1,7 @@
 import React, {Component,Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import './NavBottom.css';
-import { faHome,faImages,faHeart,faQrcode,faMapMarkerAlt,faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHome,faImages,faHeart,faQrcode,faMapMarkerAlt,faEnvelope,faTags } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {BrowserRouter as Router,Route,Link,Redirect} from 'react-router-dom';
 import Cover from '../Cover/Cover';
@@ -91,8 +91,8 @@ class NavBottom extends Component{
                                     <span class="nav__text">COUPLE</span>
                              </Link>  
                              <Link  onClick={() => this.hideComponent("showHideDemo3")} className="nav__link">
-                                    <FontAwesomeIcon icon={faMapMarkerAlt}  className="nav__icon" />
-                                     <span class="nav__text">PLACE</span>
+                                    <FontAwesomeIcon icon={faTags}  className="nav__icon" />
+                                     <span class="nav__text">EVENT</span>
                              </Link>  
                             <Link  onClick={() => this.hideComponent("showHideDemo4")} className="nav__link">
                                     <FontAwesomeIcon icon={faImages}  className="nav__icon" />

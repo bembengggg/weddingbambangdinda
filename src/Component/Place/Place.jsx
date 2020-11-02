@@ -1,8 +1,8 @@
 import React from 'react';
 import './Place.css';
-import place from '../Place/Place.jpg';
+import place from '../Cover/bgimage.jpg';
 
-const Cover =()=>{
+const Place =()=>{
 
  
 
@@ -22,4 +22,4 @@ const Cover =()=>{
     )
 }
 
-export default Cover;
+export default Place;
