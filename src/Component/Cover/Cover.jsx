@@ -20,7 +20,7 @@ class Cover extends Component{
         <div className='wrapcover'>
            <img className='imgcover' src={cover}/>  
            <div className='imgperson'>
-           <img className='imgpict' src={abadi}/>
+               {/* <img className='imgpict' src={abadi}/> */}
             </div>
             <div className='imgperson1'>
             </div>
