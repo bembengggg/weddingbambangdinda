@@ -34,39 +34,44 @@ class NavBottom extends Component{
         console.log(name);
         switch (name) {
           case "showHideDemo1":
-            this.setState({ showHideDemo1: this.state.showHideDemo1 });
+            this.setState({ showHideDemo1: !this.state.showHideDemo1 });
+            this.setState({showHideDemo1: true  });
             this.setState({showHideDemo2: false  });
             this.setState({showHideDemo3: false  });
             this.setState({showHideDemo4: false  });
             this.setState({showHideDemo5: false  });
             break;
           case "showHideDemo2":
-            this.setState({ showHideDemo2: this.state.showHideDemo2 });
+            this.setState({ showHideDemo2: !this.state.showHideDemo2 });
+            this.setState({showHideDemo2: true  });
             this.setState({showHideDemo1: false  });
             this.setState({showHideDemo3: false  });
             this.setState({showHideDemo4: false  });
             this.setState({showHideDemo5: false  });
             break;
           case "showHideDemo3":
-            this.setState({ showHideDemo3: this.state.showHideDemo3 });
+            this.setState({ showHideDemo3: !this.state.showHideDemo3 });
             this.setState({showHideDemo1: false  });
             this.setState({showHideDemo2: false  });
+            this.setState({showHideDemo3: true  });
             this.setState({showHideDemo4: false  });
             this.setState({showHideDemo5: false  });
             break;
             case "showHideDemo4":
-                this.setState({ showHideDemo4: this.state.showHideDemo4 });
+                this.setState({ showHideDemo4: !this.state.showHideDemo4 });
                 this.setState({showHideDemo1: false  });
                 this.setState({showHideDemo2: false  });
                 this.setState({showHideDemo3: false  });
+                this.setState({showHideDemo4: true  });
                 this.setState({showHideDemo5: false  });
                 break;
           case "showHideDemo5":
-                    this.setState({ showHideDemo5: this.state.showHideDemo5 });
+                    this.setState({ showHideDemo5: !this.state.showHideDemo5 });
                     this.setState({showHideDemo1: false  });
                     this.setState({showHideDemo2: false  });
                     this.setState({showHideDemo3: false  });
                     this.setState({showHideDemo4: false  });
+                    this.setState({showHideDemo5: true  });
                     break;
         }
       }
