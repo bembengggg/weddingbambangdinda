@@ -28,7 +28,7 @@ const Place =()=>{
            <div className='bksrangkaianakaddetail'>
 
            <div className='bksrangkaianakadborderdetail1'> 
-                    <div className='bkshari'>
+                     <div className='bkshari'>
                         <label className='txthari'>SABTU</label>
                     </div>
                     <div className='bkshari'>
@@ -36,7 +36,7 @@ const Place =()=>{
                     </div>    
                     <div className='bkshari'>
                         <label className='txtpkl'>16.00 S/D 17.00 WIB</label>
-                    </div>  
+                    </div>   
             </div>
                <div className='bksrangkaianakadborderdetail2'>
                     <label className='txttanggal'>09</label>
@@ -48,14 +48,14 @@ const Place =()=>{
                     </div>
                     <div className='bkshari'>
                     <img className='imgtahunlist' src={list}/>
-                    </div>    
+                    </div>     
                     <div className='bkshari'>
                         <label className='txttahun'>2021</label>
                     </div> 
                    </div>
            </div>
 
-           <div className='bksrangkaianjalanakad'>
+           {/* <div className='bksrangkaianjalanakad'>
                 <div className='bksrangkaianjalanakad1'><b>SASONO MULYO - DEPOK</b></div>
            </div>
            <div className='bksrangkaianjalandetailakad'>
@@ -102,6 +102,12 @@ const Place =()=>{
                     </div> 
                    </div>
            </div>
+           <div className='bksrangkaianjalanresepsi'>
+                <div className='bksrangkaianjalanresepsi'><b>SASONO MULYO - DEPOK</b></div>
+           </div>
+           <div className='bksrangkaianjalandetailresepsi'>
+                <div className='bksrangkaianjalandetailresepsi'>Jl. Jatimulya (Kalimulya) No. 30, Cilodong, Depok Jawa Barat</div>
+           </div> */}
 
 
            <div className='form1'>
