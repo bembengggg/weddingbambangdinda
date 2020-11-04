@@ -624,7 +624,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 70%;
+        top: 68%;
         width: 100%;
         animation-name: animasirangkaian;
         animation-duration: 3s;
@@ -662,38 +662,7 @@
         color: #9C6615;
         margin-left: 0px;
     }
-    .bksrangkaianjalanresepsi{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 68%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasirangkaian;
-        animation-duration: 3s;
-        font-size: 15px;
-        font-family: 'monofonto';
-        color: #9C6615;
-        margin-left: -10px;
-    }
-    .bksrangkaianjalandetailresepsi{
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 70%;
-        width: 100%;
-        margin-right: auto;
-        animation-name: animasirangkaian;
-        animation-duration: 3s;
-        font-size: 15px;
-        font-family: 'monofonto';
-        color: #9C6615;
-        margin-left: -10px;
-    }
+    
     .bksrangkaianresepsiborderdetail1{
         width: 33.3%;
         height: 150%;
