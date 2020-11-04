@@ -229,6 +229,15 @@ to{
     margin-left: 0%;
 }
 }
+@keyframes animasitextbutton{
+    from{
+        margin-left: 21%;
+        opacity: 0.3;
+    }
+    to{
+        margin-left: -31%;
+    }
+    }
 @keyframes animasitext1{
     from{
         opacity: 0;

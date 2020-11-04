@@ -73,14 +73,14 @@ const Place =()=>{
                    
                    </div>
            </div>
-           {/*<div className='bksrangkaianresepsidetail'>
+           <div className='bksrangkaianresepsidetail'>
 
            <div className='bksrangkaianresepsiborderdetail1'> 
                     <div className='bkshariresepsi'>
                         <label className='txthariresepsi'>SABTU</label>
                     </div>
                     <div className='bkshariresepsi'>
-                    <img className='imgtahunresepsilist' src={list}/>
+                    <img className='imgtahunresepsilisthari' src={list}/>
                     </div>    
                     <div className='bkshariresepsi'>
                         <label className='txtpklresepsi'>19.00 S/D 20.00 WIB</label>
@@ -102,12 +102,7 @@ const Place =()=>{
                     </div> 
                    </div>
            </div>
-           <div className='bksrangkaianjalanresepsi'>
-                <div className='bksrangkaianjalanresepsi'><b>SASONO MULYO - DEPOK</b></div>
-           </div>
-           <div className='bksrangkaianjalandetailresepsi'>
-                <div className='bksrangkaianjalandetailresepsi'>Jl. Jatimulya (Kalimulya) No. 30, Cilodong, Depok Jawa Barat</div>
-           </div> */}
+         
 
 
            <div className='form1'>
