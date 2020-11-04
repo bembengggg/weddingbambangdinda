@@ -198,8 +198,23 @@
     font-size: 15px;
 }
 @keyframes animasi1{
-    0%{transform: translateY(0px);}
+    0%{
+        transform: translateY(0px);
+    
+    }
     50%{transform: translateY(15px);}
+}
+@keyframes animasirangkaian{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    
+    }
+    50%{transform: translateY(15px);
+        opacity: 1;
+    
+    
+    }
 }
 @keyframes animasi2{
     0%{transform: translateY(35px);}
