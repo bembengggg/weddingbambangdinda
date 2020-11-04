@@ -30,7 +30,7 @@
     }
 .bkslabelnama{
     position: absolute;
-    height:30%;
+    height:90%;
     width: 60%;
     justify-content: center;
     margin-left: 20%;
@@ -44,7 +44,7 @@
     
 }
 .labelnama{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
     
 }
 .labeltempat{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@
     font-family: 'fredoka one';
 }
 .labeltempatku{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     display: flex;
     align-items: center;
@@ -771,7 +771,7 @@
     .buku{
         display: block;
         width: 100%;
-        height: 900px;
+        height: 1000px;
     }
     .wrappernama{
         height: auto;
@@ -937,7 +937,7 @@
     .bksbtnudg{
         height: auto;
         position: absolute;
-        top: 77%;
+        top: 70%;
         padding-bottom: 20%;
         width: 100%;
         
