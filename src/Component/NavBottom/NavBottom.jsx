@@ -99,6 +99,10 @@ class NavBottom extends Component{
                                     <FontAwesomeIcon icon={faTags}  className="nav__icon" />
                                      <span class="nav__text">EVENT</span>
                              </Link>  
+                             <Link  onClick={() => this.hideComponent("showHideDemo3")} className="nav__link">
+                                    <FontAwesomeIcon icon={faMapMarkerAlt}  className="nav__icon" />
+                                     <span class="nav__text">MAP</span>
+                             </Link>  
                             <Link  onClick={() => this.hideComponent("showHideDemo4")} className="nav__link">
                                     <FontAwesomeIcon icon={faImages}  className="nav__icon" />
                                     <span class="nav__text">GALLERY</span>

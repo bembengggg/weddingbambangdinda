@@ -55,13 +55,13 @@ const Place =()=>{
                    </div>
            </div>
 
-           {/* <div className='bksrangkaianjalanakad'>
+           <div className='bksrangkaianjalanakad'>
                 <div className='bksrangkaianjalanakad1'><b>SASONO MULYO - DEPOK</b></div>
            </div>
            <div className='bksrangkaianjalandetailakad'>
                 <div className='bksrangkaianjalandetailakad1'>Jl. Jatimulya (Kalimulya) No. 30, Cilodong, Depok Jawa Barat</div>
            </div>
-           
+            
            <div className='bksrangkaianresepsi'>
                <div className='bksrangkaianresepsiborder'>   
                    </div>
@@ -73,7 +73,7 @@ const Place =()=>{
                    
                    </div>
            </div>
-           <div className='bksrangkaianresepsidetail'>
+           {/*<div className='bksrangkaianresepsidetail'>
 
            <div className='bksrangkaianresepsiborderdetail1'> 
                     <div className='bkshariresepsi'>
