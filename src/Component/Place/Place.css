@@ -464,19 +464,20 @@
         position: absolute;
         top: 52%;
         padding-bottom: 20%;
-        width: 100%;
+        width: 50%;
         margin-right: auto;
         animation-name: animasitextbutton;
-        animation-duration: 2s;   
+        animation-duration: 4s;
+         
         
         
     }
     .btnopeng{
         position: absolute;
         height: 50%;
-        width: 40%;
+        width: 50%;
         justify-content: center;
-        margin-left: 31%;
+        margin-left: 75%;
         margin-right: auto;
         border-radius: 5px;
         font-weight: bold;
@@ -485,8 +486,8 @@
         -webkit-text-emphasis-color: inherit;
         text-emphasis-color: inherit;
         animation-name: animasitextbutton;
-        animation-duration: 2s;
-    
+        animation-duration: 4s;
+       
     }
     
     .bksrangkaianakaddetail{
@@ -624,7 +625,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 68%;
+        top: 67%;
         width: 100%;
         animation-name: animasirangkaian;
         animation-duration: 3s;
