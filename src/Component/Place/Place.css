@@ -467,7 +467,7 @@
         width: 50%;
         margin-right: auto;
         animation-name: animasitextbutton;
-        animation-duration: 4s;
+        animation-duration: 2s;
          
         
         
@@ -486,7 +486,7 @@
         -webkit-text-emphasis-color: inherit;
         text-emphasis-color: inherit;
         animation-name: animasitextbutton;
-        animation-duration: 4s;
+        animation-duration: 2s;
        
     }
     
