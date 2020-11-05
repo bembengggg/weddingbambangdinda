@@ -139,6 +139,7 @@ const Place =()=>{
                                 <option value="Select">Pilih Jam</option>
                                 <option value="19.00-20.00">19.00 - 20.00</option>
                                 <option value="20.00-21.00">20.00 - 21.00</option>
+                                <option value="Maaf%20Tidak%20Bisa%20Hadir">Tidak Bisa Hadir</option>
 
                             </select>
                             </div>
