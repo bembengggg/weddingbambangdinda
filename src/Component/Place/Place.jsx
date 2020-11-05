@@ -114,7 +114,7 @@ const Place =()=>{
             <button className="btnopeng" onClick={event =>  window.location.href='https://goo.gl/maps/xvyf6YvwSCZGx3D49'}>Lihat Peta</button>
             </div>
             <div className='form2'>
-            <button className="btnopenrsvp" onClick={event =>  window.location.href='https://goo.gl/maps/xvyf6YvwSCZGx3D49'}>Konfirmasi Kehadiran</button>
+            <button className="btnopenrsvp" onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Halo%20Saya%20Akan%20Datang%20KePernikahan%20anda'}>Konfirmasi Kehadiran</button>
             </div>
          </div>
 
