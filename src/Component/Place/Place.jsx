@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{useState,Fragment} from 'react';
 import './Place.css';
 import place from '../Cover/bgimage.jpg';
 import list from '../../Assets/image/list.png';
+import Modal from './Modal';
+
 
 const Place =()=>{
-
- 
-
+    const[isModalOpened,setIsModalOpened]=useState(false);
 
     return(
         <div className='wrapcover'>
@@ -113,10 +113,24 @@ const Place =()=>{
            <div className='form1'>
             <button className="btnopeng" onClick={event =>  window.location.href='https://goo.gl/maps/xvyf6YvwSCZGx3D49'}>Lihat Peta</button>
             </div>
+            <Fragment>
             <div className='form2'>
-            <button className="btnopenrsvp" onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Halo%20Saya%20Akan%20Datang%20KePernikahan%20anda'}>Konfirmasi Kehadiran</button>
+            {/* <button className="btnopenrsvp" onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Halo%20Saya%20Akan%20Datang%20KePernikahan%20anda'}>Konfirmasi Kehadiran</button> */}
+            <button className="btnopenrsvp" onClick={event =>  setIsModalOpened(true)}>Konfirmasi Kehadiran</button>
             </div>
+            {
+                isModalOpened &&
+                <Modal title='Modal title' duration={400} onClose={()=>setIsModalOpened(false)}>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Porro commodi consequatur odit. Fugit at, sit libero veniam, vitae iusto obcaecati,exercitationem 
+                    blanditiis asperiores voluptas deserunt quas perferendis. Iure, officiis autem?</p>
+                </Modal>
+            }
+            </Fragment>
+
+    
          </div>
+
 
 
 
@@ -124,5 +138,7 @@ const Place =()=>{
 
     )
 }
+
+
 
 export default Place;
