@@ -43,13 +43,13 @@ const Place =()=>{
                </div>
 
                    <div className='bksrangkaianakadborderdetail3'>
-                   <div className='bkshari'>
+                   <div className='bkshari1'>
                         <label className='txtbulan'>JANUARY</label>
                     </div>
-                    <div className='bkshari'>
+                    <div className='bkshari1'>
                     <img className='imgtahunlist' src={list}/>
                     </div>     
-                    <div className='bkshari'>
+                    <div className='bkshari1'>
                         <label className='txttahun'>2021</label>
                     </div> 
                    </div>
@@ -91,13 +91,13 @@ const Place =()=>{
                </div>
 
                    <div className='bksrangkaianresepsiborderdetail3'>
-                   <div className='bkshariresepsi'>
+                   <div className='bkshariresepsi1'>
                         <label className='txtbulanresepsi'>JANUARY</label>
                     </div>
-                    <div className='bkshariresepsi'>
+                    <div className='bkshariresepsi1'>
                     <img className='imgtahunresepsilist' src={list}/>
                     </div>    
-                    <div className='bkshariresepsi'>
+                    <div className='bkshariresepsi1'>
                         <label className='txttahunresepsi'>2021</label>
                     </div> 
                    </div>

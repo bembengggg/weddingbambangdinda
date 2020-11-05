@@ -544,9 +544,18 @@
         height: 150%;
         text-align: center;
         margin:1%;
+        animation: animasibksleft 3s;
     
     }
     
+    .bkshari1{
+        width: 95%;
+        height: 150%;
+        text-align: center;
+        margin:1%;
+        animation: animasibksright 3s;
+    
+    }
     .txthari{
         font-size: 15px;
         font-family: 'monofonto';
@@ -735,6 +744,18 @@
         height: 150%;
         text-align: center;
         margin:1%;
+        animation: animasibksleft 3s;
+    
+    }
+    .bkshariresepsi1{
+        width: 95%;
+        height: 150%;
+        text-align: center;
+        margin:1%;
+        animation: animasibksright 3s;
+
+
+        
     
     }
     
