@@ -102,7 +102,12 @@ const Place =()=>{
                     </div> 
                    </div>
            </div>
-         
+           <div className='bksrangkaianjalanresepsi'>
+                <div className='bksrangkaianjalanresepsi'><b>SASONO MULYO - DEPOK</b></div>
+           </div>
+           <div className='bksrangkaianjalandetailresepsi'>
+                <div className='bksrangkaianjalandetailresepsi'>Jl. Jatimulya (Kalimulya) No. 30, Cilodong, Depok Jawa Barat</div>
+           </div> 
 
 
            <div className='form1'>

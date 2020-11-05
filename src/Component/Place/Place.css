@@ -575,8 +575,6 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        
-    
     }
     .txttanggal{
         font-size: 40px;
@@ -647,6 +645,22 @@
         color: #9C6615;
         margin-left: -2px;
     }
+    .bksrangkaianjalanresepsi{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 76%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasirangkaian;
+        animation-duration: 3s;
+        font-size: 13px;
+        font-family: 'monofonto';
+        color: #9C6615;
+        margin-left: -2px;
+    }
     .bksrangkaianjalandetailakad1{
         height: auto;
         position: absolute;
@@ -663,7 +677,22 @@
         color: #9C6615;
         margin-left: 0px;
     }
-    
+    .bksrangkaianjalandetailresepsi{
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 79%;
+        width: 100%;
+        margin-right: auto;
+        animation-name: animasirangkaian;
+        animation-duration: 3s;
+        font-size: 10px;
+        font-family: 'monofonto';
+        color: #9C6615;
+        margin-left: 0px;
+    }
     .bksrangkaianresepsiborderdetail1{
         width: 33.3%;
         height: 150%;
