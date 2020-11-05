@@ -121,9 +121,29 @@ const Place =()=>{
             {
                 isModalOpened &&
                 <Modal title='Konfirmasi Kehadiran' duration={400} onClose={()=>setIsModalOpened(false)}>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Porro commodi consequatur odit. Fugit at, sit libero veniam, vitae iusto obcaecati,exercitationem 
-                    blanditiis asperiores voluptas deserunt quas perferendis. Iure, officiis autem?</p>
+                       <div className='bksmodal'>
+                        <div className='formpopup'>
+                            <div className='labelnamaku'>
+                                <label className='lblnama'>Nama :</label>
+                            </div>
+                            <div className='labelnamaku'>
+                                <input className='txtnama' name='nama'></input>
+                            </div>
+                        </div>
+                        <div className='formpopupkdtg'>
+                            <div className='labelkdtg'>
+                                <label className='lblkdtg'>Jam&emsp; :</label>
+                            </div>
+                            <div className='labelkdtg'>
+                            <select className='txtkdtg'>
+                                <option value="Select">Pilih Jam</option>
+                                <option value="19.00-20.00">19.00 - 20.00</option>
+                                <option value="20.00-21.00">20.00 - 21.00</option>
+
+                            </select>
+                            </div>
+                        </div>
+                        </div>
                 </Modal>
             }
             </Fragment>

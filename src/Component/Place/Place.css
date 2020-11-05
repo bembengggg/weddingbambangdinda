@@ -753,12 +753,46 @@
         text-align: center;
         margin:1%;
         animation: animasibksright 3s;
-
-
-        
-    
     }
-    
+    .formpopup{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .formpopupkdtg{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .labelkdtg{
+        width: 100%;
+        height: 100%;
+        margin-left: -20%;
+    }
+    .txtkdtg{
+        width: 100%;
+        height: 100%;
+        border:50px black;
+        background-color: #FFDDA1;
+    }
+    .labelnamaku{
+        width: 100%;
+        height: 100%;
+        margin-left: -20%;
+
+    }
+    .txtnama{
+        width: 100%;
+        height: 100%;
+        border:50px black;
+        background-color: #FFDDA1;
+    }
+    .bksmodal{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     .txthariresepsi{
         font-size: 15px;
         font-family: 'monofonto';
