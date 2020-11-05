@@ -3,10 +3,13 @@ import './Place.css';
 import place from '../Cover/bgimage.jpg';
 import list from '../../Assets/image/list.png';
 import Modal from './Modal';
+import { useParams } from 'react-router';
+
 
 
 const Place =()=>{
     const[isModalOpened,setIsModalOpened]=useState(false);
+   
 
     return(
         <div className='wrapcover'>
@@ -127,7 +130,7 @@ const Place =()=>{
                                 <label className='lblnama'>Nama</label>
                             </div>
                             <div className='labelnamaku'>
-                                <input className='txtnama' name='nama'></input>
+                                <input className='txtnama' placeholder="Masukan Nama Anda"></input>
                             </div>
                         </div>
                         <div className='formpopupkdtg'>
