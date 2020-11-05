@@ -89,25 +89,24 @@ class NavBottom extends Component{
                         <nav className="nav">
                              <Link onClick={() => this.hideComponent("showHideDemo1")} className="nav__link">
                                  <FontAwesomeIcon icon={faHome}  className="nav__icon" />
-                                    <span class="nav__text">HOME</span>
+                                    <span class="nav__text">SAMPUL</span>
                              </Link>   
                              <Link  onClick={() => this.hideComponent("showHideDemo2")} className="nav__link">
                                    <FontAwesomeIcon icon={faHeart}  className="nav__icon" />
-                                    <span class="nav__text">COUPLE</span>
+                                    <span class="nav__text">MEMPELAI</span>
                              </Link>  
                              <Link  onClick={() => this.hideComponent("showHideDemo3")} className="nav__link">
                                     <FontAwesomeIcon icon={faCalendar}  className="nav__icon" />
-                                     <span class="nav__text">EVENT
-                                     </span>
+                                     <span class="nav__text">ACARA</span>
                              </Link>  
                              
                             <Link  onClick={() => this.hideComponent("showHideDemo4")} className="nav__link">
                                     <FontAwesomeIcon icon={faImages}  className="nav__icon" />
-                                    <span class="nav__text">GALLERY</span>
+                                    <span class="nav__text">GALERI</span>
                             </Link> 
                             <Link  onClick={() => this.hideComponent("showHideDemo5")} className="nav__link">
                                     <FontAwesomeIcon icon={faEnvelope}  className="nav__icon" />
-                                    <span class="nav__text">MESSAGES</span>
+                                    <span class="nav__text">PESAN</span>
                             </Link>    
  
                             </nav> 
