@@ -50,7 +50,7 @@ const Modal =({title,children,onClose,duration=300,showCloseBtn})=>{
                     {children}
                 </div>
                     <div className='modal_foot'>
-                        <a href='/#' onClick={modalCloseHandler}>Close</a>
+                            <button className='Konfirmasi'>Konfirmasi</button>
                     </div>
         </div>
      

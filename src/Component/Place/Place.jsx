@@ -120,7 +120,7 @@ const Place =()=>{
             </div>
             {
                 isModalOpened &&
-                <Modal title='Modal title' duration={400} onClose={()=>setIsModalOpened(false)}>
+                <Modal title='Konfirmasi Kehadiran' duration={400} onClose={()=>setIsModalOpened(false)}>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Porro commodi consequatur odit. Fugit at, sit libero veniam, vitae iusto obcaecati,exercitationem 
                     blanditiis asperiores voluptas deserunt quas perferendis. Iure, officiis autem?</p>
