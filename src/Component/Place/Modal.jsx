@@ -44,13 +44,12 @@ const Modal =({title,children,onClose,duration=300,showCloseBtn})=>{
         <div className='modal_inner' ref={modalContent}>
             <div className='modal_head'>
                 <h2>{title}</h2>
-                {showCloseBtn&&<button className='btn' onClick={modalCloseHandler}>&times;</button>}
             </div>
                 <div className='modal_body'>
                     {children}
                 </div>
                     <div className='modal_foot'>
-                            <button className='Konfirmasi'>Konfirmasi</button>
+                            <button className='Konfirmasi' onClick={modalCloseHandler}>Konfirmasi</button>
                     </div>
         </div>
      
