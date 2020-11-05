@@ -97,7 +97,8 @@ class NavBottom extends Component{
                              </Link>  
                              <Link  onClick={() => this.hideComponent("showHideDemo3")} className="nav__link">
                                     <FontAwesomeIcon icon={faCalendar}  className="nav__icon" />
-                                     <span class="nav__text">EVENT</span>
+                                     <span class="nav__text">EVENT
+                                     </span>
                              </Link>  
                              
                             <Link  onClick={() => this.hideComponent("showHideDemo4")} className="nav__link">
