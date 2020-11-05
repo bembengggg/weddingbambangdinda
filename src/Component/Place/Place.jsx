@@ -124,7 +124,7 @@ const Place =()=>{
                        <div className='bksmodal'>
                         <div className='formpopup'>
                             <div className='labelnamaku'>
-                                <label className='lblnama'>Nama :</label>
+                                <label className='lblnama'>Nama</label>
                             </div>
                             <div className='labelnamaku'>
                                 <input className='txtnama' name='nama'></input>
@@ -132,7 +132,7 @@ const Place =()=>{
                         </div>
                         <div className='formpopupkdtg'>
                             <div className='labelkdtg'>
-                                <label className='lblkdtg'>Jam&emsp; :</label>
+                                <label className='lblkdtg'>Jam&emsp;</label>
                             </div>
                             <div className='labelkdtg'>
                             <select className='txtkdtg'>
