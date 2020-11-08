@@ -778,6 +778,7 @@
         top: 20px;
         background-color: #FFDDA1;
         border-radius: 5%;
+        margin-left: -2%;
  
 
     }
@@ -792,6 +793,7 @@
         height: 100%;
         border:50px black;
         background-color: #FFDDA1;
+        margin-left:-10% ;
     }
     .labelnamaku{
         width: 100%;
@@ -805,6 +807,7 @@
         border:50px black;
         background-color: #FFDDA1;
         color: black;
+        margin-left: -10%;
        
     }
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
