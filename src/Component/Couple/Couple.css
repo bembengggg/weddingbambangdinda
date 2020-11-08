@@ -17,8 +17,7 @@
     src: url('../../Assets/font/Sweet.ttf')format('truetype');
     font-family: 'monofonto';
     src: url('../../Assets/font/monofonto.ttf') format('truetype');
-    font-family: 'alana';
-    src: url('../../Assets/font/alana.ttf') format('truetype');
+    
     
 }
 
@@ -65,7 +64,7 @@
     font-size: 20px;
 }
 .txtudg{
-    font-size: 11px;
+    font-size: 14px;
     color: #9C6615;
 }
 .htopbpk{
@@ -114,7 +113,7 @@
     color:#9C6615 ;
 }
 .txtbpk{
-    font-size: 12px;
+    font-size: 14px;
     color: #9C6615;
 }
 .txtasslm{
