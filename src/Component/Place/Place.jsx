@@ -155,9 +155,22 @@ const Place =()=>{
                                 <option value="Maaf%20Tidak%20Bisa%20Hadir">Tidak Bisa Hadir</option>
 
                             </select>
+                            
+
                             </div>
+                          
+
+
                         </div>
                         </div>
+                        <div className='labeltf'>
+                                <label className='lbltfku'>Merupakan Suatu Kehormatan Bagi Kami Apabila Bapak/Ibu/Saudara(i) Dapat Berkenaan Hadir Untuk Memberikan Doa Restu,Sehubungan Dengan Adanya Covid-19 apabila Bapak/Ibu/Saudara(i) 
+                                tidak Bisa Hadir Dan Ingin Memberikan Sebuah Hadiah Untuk Pasangan Pengantin Bisa 
+                                Melalui No Rekening Berikut (Bank Bca : 12345678910) Atas Kehadiran Dan Doa Restunya Kami
+                                Ucapkan Terima Kasih<br/> </label>
+                                <label className='lbltfku'>Wassalamualaikum Wr.Wb<br/><br/> </label>
+                                <label className='lbltfku'>Adinda Dan Bambang </label>
+                            </div>
                 </Modal>
             }
             </Fragment>

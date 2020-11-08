@@ -769,6 +769,24 @@
         height: 100%;
         margin-left: -20%;
     }
+    .labeltf{
+        width: 105%;
+        height: 50%;
+        font-size: 20px;
+        font-family: 'rattman';
+        position: relative;
+        top: 20px;
+        background-color: #FFDDA1;
+        border-radius: 5%;
+ 
+
+    }
+    .labeltfku{
+        width: 100%;
+        height: 50%;
+        display: absolute;
+        
+    }
     .txtkdtg{
         width: 100%;
         height: 100%;
