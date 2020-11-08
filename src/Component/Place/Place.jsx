@@ -1,17 +1,26 @@
-import React,{useState,Fragment} from 'react';
+import React,{useState,Fragment,useEffect} from 'react';
 import './Place.css';
 import place from '../Cover/bgimage.jpg';
 import list from '../../Assets/image/list.png';
+import Sampul from '../Sampul/Sampul';
 import Modal from './Modal';
-import { useParams } from 'react-router';
-
+import { useLocation, useParams,useHistory,useRouteMatch } from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 const Place =()=>{
+    // const search = useLocation().search;
+    // const name = new URLSearchParams(search).get('name');
+    // console.log('nama',name)
+    const location = useRouteMatch();
+    const {nama}=useParams();
+    console.log(nama);
+    
     const[isModalOpened,setIsModalOpened]=useState(false);
-   
+    
 
     return(
+
         <div className='wrapcover'>
            <img className='img2' src={place}/>
            <div className='bksrangkaian'>
@@ -111,7 +120,7 @@ const Place =()=>{
            <div className='bksrangkaianjalandetailresepsi'>
                 <div className='bksrangkaianjalandetailresepsi'>Jl. Jatimulya (Kalimulya) No. 30, Cilodong, Depok Jawa Barat</div>
            </div> 
-
+          
 
            <div className='form1'>
             <button className="btnopeng" onClick={event =>  window.location.href='https://goo.gl/maps/xvyf6YvwSCZGx3D49'}>Lihat Peta</button>
@@ -126,11 +135,12 @@ const Place =()=>{
                 <Modal title='Konfirmasi Kehadiran' duration={400} onClose={()=>setIsModalOpened(false)}>
                        <div className='bksmodal'>
                         <div className='formpopup'>
+                            
                             <div className='labelnamaku'>
                                 <label className='lblnama'>Nama</label>
                             </div>
                             <div className='labelnamaku'>
-                                <input className='txtnama' placeholder="Masukan Nama Anda"></input>
+                                <input className='txtnama' placeholder={nama}></input>
                             </div>
                         </div>
                         <div className='formpopupkdtg'>

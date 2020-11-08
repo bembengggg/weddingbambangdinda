@@ -1,4 +1,4 @@
-import React,{useEffect,useRef} from 'react';
+import React,{useEffect,useRef, useState} from 'react';
 import PropTypes from 'prop-types';
 import './Modal.css';
 
@@ -6,6 +6,10 @@ const Modal =({title,children,onClose,duration=300,showCloseBtn})=>{
     const modal=useRef();
     const modalBg=useRef();
     const modalContent=useRef();
+    
+   
+
+ 
 
  useEffect(() => {
      document.body.style.overflow ='hidden';
@@ -30,8 +34,10 @@ const Modal =({title,children,onClose,duration=300,showCloseBtn})=>{
      modal.current.classList.add('disable-click');
      modalBg.current.style.opacity=0;
      modalContent.current.style.opacity=0;
-     modalContent.current.style.top='-100px'
+     modalContent.current.style.top='-100px';
 
+   
+    //  return console.log(')
      setTimeout(()=>{
          modal.current.classList.remove('disable-click');
          onClose();

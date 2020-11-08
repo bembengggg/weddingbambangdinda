@@ -18,16 +18,23 @@ import audio from '../../Assets/MP3/sepertiga.mp3';
 
 
 class NavBottom extends Component{
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
           showHideDemo1: true,
           showHideDemo2: false,
           showHideDemo3: false,
           showHideDemo4: false,
           showHideDemo5: false,
+        
         };
         this.hideComponent = this.hideComponent.bind(this);
+      }
+
+      handleCounterChange=(newValue)=>{
+        this.setstate({
+          nama:newValue
+        })
       }
         
       hideComponent(name) {
@@ -72,16 +79,19 @@ class NavBottom extends Component{
                     this.setState({showHideDemo3: false  });
                     this.setState({showHideDemo4: false  });
                     this.setState({showHideDemo5: true  });
-                    break;
+                   
+ 
         }
       }
     render(){
         const { showHideDemo1, showHideDemo2, showHideDemo3,showHideDemo4,showHideDemo5 } = this.state;
+        
         return(
-            <Router>                            
+            <Router> 
+                   
             {showHideDemo1 && <Cover />}
             {showHideDemo2 && <Couple />}
-            {showHideDemo3 && <Place />}
+            {showHideDemo3 && <Route path="/:nama/:tempat"  component={Place}/>}
             {showHideDemo4 && <Gallery />}
             {showHideDemo5 && <Messages />}
 

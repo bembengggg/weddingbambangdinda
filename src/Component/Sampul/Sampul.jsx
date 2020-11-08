@@ -13,27 +13,40 @@ class Sampul extends Component{
         isActive: false, 
         play: false,
         pause: true,
+        // nama:this.props.match.params.nama,
+        // tempat:this.props.match.params.tempat,
       };
-
+      
       
 
     this.audio = new Audio(audio);
         }
-      
+  
+        // handleCounterChange=(newValue)=>{
+        //   this.props.onCounterChange(newValue); 
+        // }
+
     playAudio=()=> {
-        this.setState({ play: true, pause: false })
-    this.audio.play();
+        this.setState({ play: true, 
+        pause: false })
+        this.audio.play();
         this.setState({
-            isActive: true
-          });
+            isActive: true,
+            nama:this.state.nama
+          })
+
 
       }
       render(){
+
+        console.log(this.props.match.params);
+          
+
         if (this.state.isActive) {
     return(
 
           <div>
-           <NavBottom/>
+           <NavBottom />
           </div>    
     );}else {
       
