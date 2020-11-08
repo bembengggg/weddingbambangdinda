@@ -804,6 +804,7 @@
         height: 100%;
         border:50px black;
         background-color: #FFDDA1;
+        color: black;
        
     }
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
