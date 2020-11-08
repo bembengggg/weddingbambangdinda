@@ -140,7 +140,7 @@ const Place =()=>{
                                 <label className='lblnama'>Nama</label>
                             </div>
                             <div className='labelnamaku'>
-                                <input className='txtnama' placeholder={nama}></input>
+                                <input className='txtnama' value={nama} disabled></input>
                             </div>
                         </div>
                         <div className='formpopupkdtg'>
