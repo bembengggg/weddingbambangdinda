@@ -249,26 +249,36 @@ to{
     }
 
     @keyframes animasibksright{
-        from{
+        0%{
                 opacity: 0.1;
                 margin-left: -50%;
         }
-        to{
+        50%{
+            opacity: 0.1;
+            margin-left: 1%;
+
+        }
+        100%{
             opacity: 1;
             margin-left: 1%;
 
         }
     }
     @keyframes animasibksleft{
-        from{
-                opacity: 0.1;
-                margin-left: 50%;
-        }
-        to{
-            opacity: 1;
-            margin-left: 1%;
+        0%{
+            opacity: 0.1;
+            margin-left: -50%;
+    }
+    50%{
+        opacity: 0.1;
+        margin-left: 1%;
 
-        }
+    }
+    100%{
+        opacity: 1;
+        margin-left: 1%;
+
+    }
     }
 
    
