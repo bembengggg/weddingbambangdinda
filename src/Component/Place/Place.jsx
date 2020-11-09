@@ -172,7 +172,7 @@ const Place =()=>{
                         </div>
                         <div className='labeltf'>
                                 <label className='lbltfku'>Merupakan Suatu Kehormatan Bagi Kami Apabila Bapak/Ibu/Saudara(i) Dapat Berkenaan Hadir Untuk Memberikan Doa Restu,Sehubungan Dengan Adanya Covid-19 apabila Bapak/Ibu/Saudara(i) 
-                                tidak Bisa Hadir Dan Ingin Memberikan Sebuah Tanda Kasih Untuk Pasangan Pengantin Bisa 
+                                Tidak Bisa Hadir Dan Ingin Memberikan Sebuah Tanda Kasih Untuk Pasangan Pengantin Bisa 
                                 Melalui No Rekening Berikut (Bank Bca : 12345678910) Atas Kehadiran Dan Doa Restunya Kami
                                 Ucapkan Terima Kasih<br/> </label>
                                 <label className='lbltfku'>Wassalamualaikum Wr.Wb<br/><br/> </label>

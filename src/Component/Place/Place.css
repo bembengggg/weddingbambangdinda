@@ -393,7 +393,7 @@
  }
  
  
- @media only screen and (min-width: 300px) and (max-width: 500px){
+ @media only screen and (min-width: 300px) and (max-width: 980px){
     .wrapcover{
         width: 100%;
         height: 100%;
@@ -769,11 +769,19 @@
         height: 100%;
         margin-left: -20%;
     }
+    @font-face{
+        
+        font-family: 'palace';
+        src: url('../../Assets/font/Palace.ttf') format('truetype');
+        
+        
+    }
+    
     .labeltf{
         width: 105%;
         height: 50%;
         font-size: 16px;
-        font-family: 'rattman';
+        font-family: 'palace';
         position: relative;
         top: 20px;
         background-color: #FFDDA1;
