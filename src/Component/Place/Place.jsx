@@ -153,15 +153,22 @@ const Place =()=>{
                                 <option value="19.00-20.00">19.00 - 20.00</option>
                                 <option value="20.00-21.00">20.00 - 21.00</option>
                                 <option value="Maaf%20Tidak%20Bisa%20Hadir">Tidak Bisa Hadir</option>
-
                             </select>
-                            
-
                             </div>
-                          
-
-
                         </div>
+                        <div className='formpopupkdtg'>
+                            <div className='labelkdtg'>
+                                <label className='txttamu'>Tamu&emsp;</label>
+                            </div>
+                            <div className='labelkdtg'>
+                            <select className='txtkdtg'>
+                                <option value="Select">Tamu Yang Akan Hadir</option>
+                                <option value="19.00-20.00">1</option>
+                                <option value="20.00-21.00">2</option>
+                                <option value="Maaf%20Tidak%20Bisa%20Hadir">3</option>
+                            </select>
+                            </div>
+                            </div>
                         </div>
                         <div className='labeltf'>
                                 <label className='lbltfku'>Merupakan Suatu Kehormatan Bagi Kami Apabila Bapak/Ibu/Saudara(i) Dapat Berkenaan Hadir Untuk Memberikan Doa Restu,Sehubungan Dengan Adanya Covid-19 apabila Bapak/Ibu/Saudara(i) 
