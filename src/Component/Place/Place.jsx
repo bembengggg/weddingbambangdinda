@@ -171,12 +171,14 @@ const Place =()=>{
                             </div>
                         </div>
                         <div className='labeltf'>
-                                <label className='lbltfku'>Merupakan Suatu Kehormatan Bagi Kami Apabila Bapak/Ibu/Saudara(i) Dapat Berkenaan Hadir Untuk Memberikan Doa Restu,Sehubungan Dengan Adanya Covid-19 apabila Bapak/Ibu/Saudara(i) 
-                                Tidak Bisa Hadir Dan Ingin Memberikan Sebuah Tanda Kasih Untuk Pasangan Pengantin Bisa 
-                                Melalui No Rekening Berikut (Bank Bca : 12345678910) Atas Kehadiran Dan Doa Restunya Kami
-                                Ucapkan Terima Kasih<br/> </label>
+                                <label className='lbltfku'>Merupakan  suatu  kehormatan  bagi  kami, 
+                                apabila Bapak/ Ibu/ Saudara (i) dapat berkenan hadir untuk memberikan doa restu. 
+                                Sehubung dengan adanya pandemik Covid-19 apabila Bapak/ Ibu/ Saudara (i) berhalangan
+                                 untuk hadir dan ingin memberikan sebuah tanda kasih untuk pasangan pengantin bisa melalui 
+                                 nomer rekening berikut: ( bank BCA: 12345xxxx) 
+                                Atas kehadiran dan doa restunya kami ucapkan banyak terimakasih.<br/> </label>
                                 <label className='lbltfku'>Wassalamualaikum Wr.Wb<br/><br/> </label>
-                                <label className='lbltfku'>Adinda Dan Bambang </label>
+                                <label className='lbltfku'>Adinda &amp; Bambang </label>
                             </div>
                 </Modal>
             }
