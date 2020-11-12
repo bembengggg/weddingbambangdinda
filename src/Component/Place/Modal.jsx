@@ -56,7 +56,7 @@ const Modal =({title,children,onClose,value,duration=300,showCloseBtn})=>{
                 </div>
                     <div className='modal_foot'>
                             <button className='Konfirmasi' 
-                            onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Nama:%20'+value+'%20%0AJam%20Hadir:%20 PKL.19.00-20.00 WIB%20%0AJumlah%20Hadir:%20 2 Orang'}
+                            onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Nama:%20'+value+'%20%0AJam%20Hadir:%20 19.00-20.00 %20%0AJumlah%20Hadir:%20 2 Orang'}
                             >Konfirmasi</button>
                     </div>
         </div>

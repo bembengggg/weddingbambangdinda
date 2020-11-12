@@ -179,7 +179,7 @@ const Place =()=>{
                                 apabila Bapak/ Ibu/ Saudara (i) dapat berkenan hadir untuk memberikan doa restu. 
                                 Sehubung dengan adanya pandemik Covid-19 apabila Bapak/ Ibu/ Saudara (i) berhalangan
                                  untuk hadir dan ingin memberikan sebuah tanda kasih untuk pasangan pengantin bisa melalui 
-                                 nomer rekening berikut: ( bank BCA: 12345xxxx) 
+                                 nomer rekening berikut: ( BANK BCA: 12345xxxx) 
                                 Atas kehadiran dan doa restunya kami ucapkan banyak terimakasih.<br/> </label>
                                 <label className='lbltfku'>Wassalamualaikum Wr.Wb<br/><br/> </label>
                                 <label className='lbltfku'>Adinda &amp; Bambang </label>
