@@ -17,6 +17,10 @@ const Place =()=>{
     console.log(nama);
     
     const[isModalOpened,setIsModalOpened]=useState(false);
+   
+    
+   
+
     
 
     return(
@@ -132,7 +136,7 @@ const Place =()=>{
             </div>
             {
                 isModalOpened &&
-                <Modal title='Konfirmasi Kehadiran' duration={400} onClose={()=>setIsModalOpened(false)}>
+                <Modal title='Konfirmasi Kehadiran' value={nama.toUpperCase()} duration={400} onClose={()=>setIsModalOpened(false)}>
                        <div className='bksmodal'>
                         <div className='formpopup'>
                             
@@ -180,7 +184,9 @@ const Place =()=>{
                                 <label className='lbltfku'>Wassalamualaikum Wr.Wb<br/><br/> </label>
                                 <label className='lbltfku'>Adinda &amp; Bambang </label>
                             </div>
+                            
                 </Modal>
+                
             }
             </Fragment>
 

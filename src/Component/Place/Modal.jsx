@@ -2,7 +2,7 @@ import React,{useEffect,useRef, useState} from 'react';
 import PropTypes from 'prop-types';
 import './Modal.css';
 
-const Modal =({title,children,onClose,duration=300,showCloseBtn})=>{
+const Modal =({title,children,onClose,value,duration=300,showCloseBtn})=>{
     const modal=useRef();
     const modalBg=useRef();
     const modalContent=useRef();
@@ -55,7 +55,9 @@ const Modal =({title,children,onClose,duration=300,showCloseBtn})=>{
                     {children}
                 </div>
                     <div className='modal_foot'>
-                            <button className='Konfirmasi' onClick={modalCloseHandler}>Konfirmasi</button>
+                            <button className='Konfirmasi' 
+                            onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Nama:%20'+value+'%20%0DJam%20Hadir:%20 PKL.19.00-20.00 WIB%20%0DJumlah%20Hadir:%20 2'}
+                            >Konfirmasi</button>
                     </div>
         </div>
      
@@ -68,7 +70,8 @@ Modal.propTypes={
     children:PropTypes.node,
     onClose:PropTypes.func.isRequired,
     duration:PropTypes.number,
-    showCloseBtn:PropTypes.bool
+    showCloseBtn:PropTypes.bool,
+    value:PropTypes.string.isRequired
 }
 
 
