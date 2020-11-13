@@ -19,7 +19,7 @@ const Place =()=>{
     const[isModalOpened,setIsModalOpened]=useState(false);
     const[selectON,setSelectON]=useState(false);
     const[setjam,setStatejam]=useState('');
-    const[settamu,setStatetamu]=useState('');
+    const[settamu,setStatetamu]=useState('tidak ada');
     
    
     
