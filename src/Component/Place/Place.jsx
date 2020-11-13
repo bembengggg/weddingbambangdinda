@@ -17,6 +17,7 @@ const Place =()=>{
     console.log(nama);
     
     const[isModalOpened,setIsModalOpened]=useState(false);
+    const[selectON,setSelectON]=useState(false);
    
     
    
@@ -152,15 +153,24 @@ const Place =()=>{
                                 <label className='lblkdtg'>Jam&emsp;</label>
                             </div>
                             <div className='labelkdtg'>
-                            <select className='txtkdtg'>
-                                <option value="Select">Pilih Jam</option>
+                            <select className='txtkdtg' onChange={(e)=>{
+                                    const selectedOn=e.target.value;
+                                    
+                                    if (selectedOn === 'Maaf%20Tidak%20Bisa%20Hadir') {
+                                        setSelectON(false)
+                                      } else {
+                                        setSelectON(selectedOn)
+                                      }
+                                    
+                                }}>
+                                <option value="Select" >Pilih Jam</option>
                                 <option value="19.00-20.00">19.00 - 20.00</option>
                                 <option value="20.00-21.00">20.00 - 21.00</option>
                                 <option value="Maaf%20Tidak%20Bisa%20Hadir">Tidak Bisa Hadir</option>
                             </select>
                             </div>
                         </div>
-                        <div className='formpopupkdtg'>
+                      {selectON && <div className='formpopupkdtg'>
                             <div className='labelkdtg'>
                                 <label className='txttamu'>Tamu&emsp;</label>
                             </div>
@@ -173,13 +183,15 @@ const Place =()=>{
                             </select>
                             </div>
                             </div>
+}
                         </div>
+                        
                         <div className='labeltf'>
                                 <label className='lbltfku'>Merupakan  suatu  kehormatan  bagi  kami, 
                                 apabila Bapak/ Ibu/ Saudara (i) dapat berkenan hadir untuk memberikan doa restu. 
                                 Sehubung dengan adanya pandemik Covid-19 apabila Bapak/ Ibu/ Saudara (i) berhalangan
                                  untuk hadir dan ingin memberikan sebuah tanda kasih untuk pasangan pengantin bisa melalui 
-                                 nomer rekening berikut: ( BANK BCA: 12345xxxx) 
+                                 nomer rekening berikut: ( BANK&emsp;BCA: 12345xxxx) 
                                 Atas kehadiran dan doa restunya kami ucapkan banyak terimakasih.<br/> </label>
                                 <label className='lbltfku'>Wassalamualaikum Wr.Wb<br/><br/> </label>
                                 <label className='lbltfku'>Adinda &amp; Bambang </label>
