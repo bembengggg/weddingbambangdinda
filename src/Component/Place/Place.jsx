@@ -18,6 +18,9 @@ const Place =()=>{
     
     const[isModalOpened,setIsModalOpened]=useState(false);
     const[selectON,setSelectON]=useState(false);
+    const[setjam,setStatejam]=useState('');
+    const[settamu,setStatetamu]=useState('');
+    
    
     
    
@@ -137,7 +140,7 @@ const Place =()=>{
             </div>
             {
                 isModalOpened &&
-                <Modal title='Konfirmasi Kehadiran' value={nama.toUpperCase()} duration={400} onClose={()=>setIsModalOpened(false)}>
+                <Modal title='Konfirmasi Kehadiran' jam={setjam} tamu={settamu} value={nama.toUpperCase()} duration={400} onClose={()=>setIsModalOpened(false)}>
                        <div className='bksmodal'>
                         <div className='formpopup'>
                             
@@ -155,11 +158,14 @@ const Place =()=>{
                             <div className='labelkdtg'>
                             <select className='txtkdtg' onChange={(e)=>{
                                     const selectedOn=e.target.value;
+                                    console.log(selectedOn)
                                     
                                     if (selectedOn === 'Maaf%20Tidak%20Bisa%20Hadir') {
                                         setSelectON(false)
+                                        setStatejam(selectedOn)
                                       } else {
                                         setSelectON(selectedOn)
+                                        setStatejam(selectedOn)
                                       }
                                     
                                 }}>
@@ -175,11 +181,15 @@ const Place =()=>{
                                 <label className='txttamu'>Tamu&emsp;</label>
                             </div>
                             <div className='labelkdtg'>
-                            <select className='txtkdtg'>
+                            <select className='txtkdtg'onChange={(e)=>{
+                                    const selectedTamu=e.target.value;
+                                    console.log(selectedTamu)
+                                    setStatetamu(selectedTamu)
+                                    
+                                }}>
                                 <option value="Select">Tamu Yang Akan Hadir</option>
-                                <option value="19.00-20.00">1</option>
-                                <option value="20.00-21.00">2</option>
-                                <option value="Maaf%20Tidak%20Bisa%20Hadir">3</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
                             </select>
                             </div>
                             </div>
