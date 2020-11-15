@@ -160,7 +160,7 @@ const Place =()=>{
                                     const selectedOn=e.target.value;
                                     console.log(selectedOn)
                                     
-                                    if (selectedOn === 'Maaf%20Tidak%20Bisa%20Hadir') {
+                                    if (selectedOn == 'Maaf%20Tidak%20Bisa%20Hadir' || selectedOn=='select' ) {
                                         setSelectON(false)
                                         setStatejam(selectedOn)
                                       } else {
