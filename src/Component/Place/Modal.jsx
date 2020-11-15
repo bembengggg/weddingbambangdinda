@@ -57,7 +57,7 @@ const konfirmasi=()=>{
         <div className='modal_bg' onClick={modalCloseHandler} ref={modalBg}></div>
         <div className='modal_inner' ref={modalContent}>
             <div className='modal_head'>
-                <h2>{value}</h2>
+                <h2>{title}</h2>
             </div>
                 <div className='modal_body'>
                     {children}
