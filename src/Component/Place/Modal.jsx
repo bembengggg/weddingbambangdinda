@@ -8,7 +8,15 @@ const Modal =({title,jam,tamu,children,onClose,value,duration=300,showCloseBtn})
     const modalContent=useRef();
     
    
+const konfirmasi=()=>{
 
+    if (jam===''){
+        alert('Silahkan Untuk Pilih Jam')
+
+    }else{
+            window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Nama:%20'+value+'%20%0AJam%20Hadir:%20 '+jam+' %20%0AJumlah%20Hadir:%20 '+tamu+' Orang'
+    }
+}
  
 
  useEffect(() => {
@@ -49,14 +57,14 @@ const Modal =({title,jam,tamu,children,onClose,value,duration=300,showCloseBtn})
         <div className='modal_bg' onClick={modalCloseHandler} ref={modalBg}></div>
         <div className='modal_inner' ref={modalContent}>
             <div className='modal_head'>
-                <h2>{title}</h2>
+                <h2>{value}</h2>
             </div>
                 <div className='modal_body'>
                     {children}
                 </div>
                     <div className='modal_foot'>
                             <button className='Konfirmasi' 
-                            onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Nama:%20'+value+'%20%0AJam%20Hadir:%20 '+jam+' %20%0AJumlah%20Hadir:%20 '+tamu+' Orang'}
+                            onClick={konfirmasi}
                             >Konfirmasi</button>
                     </div>
         </div>
