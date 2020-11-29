@@ -13,7 +13,11 @@ const konfirmasi=()=>{
     if (jam==='' || jam==='Select' ){
         alert('Silahkan Untuk Pilih Jam')
 
-    }else{
+    }else if(jam!='select' && tamu==='Select' || tamu===''){
+        alert('Silahkan Pilih Tamu yang Akan hadir')
+    }
+    else
+    {
             window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Nama:%20'+value+'%20%0AJam%20Hadir:%20 '+jam+' %20%0AJumlah%20Hadir:%20 '+tamu+' Orang'
     }
 }

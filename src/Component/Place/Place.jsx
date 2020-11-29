@@ -160,7 +160,8 @@ const Place =()=>{
                                     const selectedOn=e.target.value;
                                     console.log(selectedOn)
                                     
-                                    if (selectedOn === 'Maaf%20Tidak%20Bisa%20Hadir' || selectedOn==='Select' ) {
+                                    if (selectedOn === 'Maaf%20Tidak%20Bisa%20Hadir' || selectedOn==='Select' )
+                                     {
                                         setSelectON(false)
                                         setStatejam(selectedOn)
                                       } else {
@@ -196,16 +197,6 @@ const Place =()=>{
 }
                         </div>
                         
-                        <div className='labeltf'>
-                                <label className='lbltfku'>Merupakan  suatu  kehormatan  bagi  kami, 
-                                apabila Bapak/ Ibu/ Saudara (i) dapat berkenan hadir untuk memberikan doa restu. 
-                                Sehubung dengan adanya pandemik Covid-19 apabila Bapak/ Ibu/ Saudara (i) berhalangan
-                                 untuk hadir dan ingin memberikan sebuah tanda kasih untuk pasangan pengantin bisa melalui 
-                                 nomer rekening berikut: ( BANK&emsp;BCA: 12345xxxx) 
-                                Atas kehadiran dan doa restunya kami ucapkan banyak terimakasih.<br/> </label>
-                                <label className='lbltfku'>Wassalamualaikum Wr.Wb<br/><br/> </label>
-                                <label className='lbltfku'>Adinda &amp; Bambang </label>
-                            </div>
                             
                 </Modal>
                 
