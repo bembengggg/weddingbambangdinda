@@ -31,11 +31,6 @@ class NavBottom extends Component{
         this.hideComponent = this.hideComponent.bind(this);
       }
 
-      handleCounterChange=(newValue)=>{
-        this.setstate({
-          nama:newValue
-        })
-      }
         
       hideComponent(name) {
         console.log(name);
